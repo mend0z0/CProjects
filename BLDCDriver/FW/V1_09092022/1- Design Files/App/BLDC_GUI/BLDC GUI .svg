@@ -26,9 +26,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:lockguides="false"
-     inkscape:zoom="0.72496858"
-     inkscape:cx="74.485987"
-     inkscape:cy="425.53568"
+     inkscape:zoom="1.0252604"
+     inkscape:cx="262.37237"
+     inkscape:cy="561.32081"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -38,28 +38,37 @@
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient12253">
+       id="linearGradient1110">
       <stop
-         style="stop-color:#f90000;stop-opacity:0.96655518;"
-         offset="0.06167401"
-         id="stop12249" />
+         style="stop-color:#fe0707;stop-opacity:1;"
+         offset="0.40308371"
+         id="stop1106" />
       <stop
-         style="stop-color:#d20000;stop-opacity:0;"
+         style="stop-color:#0b0b28;stop-opacity:0;"
          offset="1"
-         id="stop12251" />
+         id="stop1108" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient12243">
+       id="linearGradient12091-1">
       <stop
-         style="stop-color:#166980;stop-opacity:1;"
-         offset="0.33700439"
-         id="stop12239" />
+         style="stop-color:#dec6cb;stop-opacity:0.54515052;"
+         offset="0"
+         id="stop1101" />
       <stop
-         style="stop-color:#0088aa;stop-opacity:0;"
+         style="stop-color:#0b0b28;stop-opacity:0;"
          offset="1"
-         id="stop12241" />
+         id="stop1103" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12091">
+      <stop
+         style="stop-color:#c6c6de;stop-opacity:0.54515052;"
+         offset="0"
+         id="stop1096" />
+      <stop
+         style="stop-color:#0b0b28;stop-opacity:0;"
+         offset="1"
+         id="stop1098" />
     </linearGradient>
     <linearGradient
        id="linearGradient12203"
@@ -76,18 +85,6 @@
          style="stop-color:#ff8f47;stop-opacity:1;"
          offset="0"
          id="stop12143" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient12091">
-      <stop
-         style="stop-color:#c6c6de;stop-opacity:0.54515052;"
-         offset="0"
-         id="stop12087" />
-      <stop
-         style="stop-color:#0b0b28;stop-opacity:0;"
-         offset="1"
-         id="stop12089" />
     </linearGradient>
     <linearGradient
        id="linearGradient12081"
@@ -107,26 +104,16 @@
        y2="-124.39156"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.4648135,0,0,1.4648135,56.306822,55.153984)" />
-    <linearGradient
+    <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient12243"
-       id="linearGradient12245"
-       x1="46.071834"
-       y1="106.00931"
-       x2="142.66442"
-       y2="106.00931"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-2.5547084,-2.9196668)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient12253"
-       id="linearGradient12255"
-       x1="-144.67576"
-       y1="-154.99475"
-       x2="-48.08318"
-       y2="-154.99475"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(2.5858381,2.8921325)" />
+       xlink:href="#linearGradient1110"
+       id="radialGradient1088"
+       cx="-93.793633"
+       cy="-127.10262"
+       fx="-93.793633"
+       fy="-127.10262"
+       r="50"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -139,48 +126,32 @@
        cy="128.54268"
        r="75" />
     <path
-       style="fill:#afe9dd;fill-opacity:1;stroke-width:2.402;stroke-linecap:square;paint-order:stroke fill markers"
+       style="display:inline;fill:#afe9dd;fill-opacity:1;stroke-width:2.402;stroke-linecap:square;paint-order:stroke fill markers"
        id="path5216"
+       d="M 51.466805,192.03948 A 75,75 0 0 1 19.178912,107.7379 75,75 0 0 1 91.315981,53.465355 75,75 0 0 1 163.36883,107.84965 75,75 0 0 1 130.9503,192.10109 L 91.257851,128.46533 Z"
        sodipodi:type="arc"
-       sodipodi:cx="91.257851"
-       sodipodi:cy="128.46533"
-       sodipodi:rx="75"
-       sodipodi:ry="75"
+       sodipodi:arc-type="slice"
        sodipodi:start="2.1300424"
        sodipodi:end="1.0131004"
-       sodipodi:arc-type="slice"
-       d="M 51.466805,192.03948 A 75,75 0 0 1 19.178912,107.7379 75,75 0 0 1 91.315981,53.465355 75,75 0 0 1 163.36883,107.84965 75,75 0 0 1 130.9503,192.10109 L 91.257851,128.46533 Z" />
+       sodipodi:ry="75"
+       sodipodi:rx="75"
+       sodipodi:cy="128.46533"
+       sodipodi:cx="91.257851"
+       inkscape:label="path5216" />
     <circle
-       style="fill:#bec1dd;fill-opacity:1;stroke-width:3.0025;stroke-linecap:square;paint-order:stroke fill markers"
+       style="display:inline;fill:#bec1dd;fill-opacity:1;stroke-width:3.0025;stroke-linecap:square;paint-order:stroke fill markers"
        id="path236"
        cx="91.798897"
        cy="128.23782"
        r="55" />
-    <path
-       style="display:inline;fill:url(#linearGradient12255);fill-opacity:1;stroke:none;stroke-width:2.402;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
+    <circle
+       style="display:inline;fill:url(#radialGradient1088);fill-opacity:1.0;stroke:none;stroke-width:2.402;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
        id="path9998-4"
-       sodipodi:type="arc"
-       sodipodi:cx="-93.793633"
-       sodipodi:cy="-127.10262"
-       sodipodi:rx="50"
-       sodipodi:ry="50"
-       sodipodi:start="2.8780479"
-       sodipodi:end="6.0213859"
-       sodipodi:arc-type="slice"
-       d="m -142.06726,-114.0774 a 50,50 0 0 1 12.87717,-48.3394 50,50 0 0 1 48.309309,-12.98964 50,50 0 0 1 35.38344,35.36286 l -48.296292,12.94096 z"
-       transform="rotate(-179.38622)" />
-    <path
-       style="display:inline;fill:url(#linearGradient12245);fill-opacity:1;fill-rule:evenodd;stroke-width:2.402;stroke-linecap:square;paint-order:stroke fill markers"
-       id="path9998"
-       sodipodi:type="arc"
-       sodipodi:cx="91.813416"
-       sodipodi:cy="128.08965"
-       sodipodi:rx="50"
-       sodipodi:ry="50"
-       sodipodi:start="2.8850293"
-       sodipodi:end="6.0213859"
-       sodipodi:arc-type="slice"
-       d="m 43.450027,140.77754 a 50,50 0 0 1 35.548921,-61.0179 50,50 0 0 1 61.110762,35.38905 l -48.296294,12.94096 z" />
+       transform="rotate(-179.38622)"
+       cx="-93.793633"
+       cy="-127.10262"
+       r="50"
+       inkscape:label="Temperature" />
     <rect
        style="fill:#d5f6ff;fill-opacity:1;stroke:#000000;stroke-width:2.188;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect9640-8"
@@ -352,18 +323,6 @@
        r="73.240677" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:11.2889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.402;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
-       x="72.444221"
-       y="106.56783"
-       id="text12422"><tspan
-         sodipodi:role="line"
-         style="font-size:11.2889px;fill:#2b0000;stroke-width:2.402"
-         x="72.444221"
-         y="106.56783"
-         id="tspan12424"
-         sodipodi:insensitive="true">TORQUE</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:italic;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.402;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
        x="73.174149"
        y="156.11676"
@@ -416,5 +375,21 @@
        style="fill:#ff2020;fill-opacity:1;fill-rule:evenodd;stroke:#e88e8e;stroke-width:2.088;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="M 77.918606,129.83393 H 107.66271"
        id="path1604" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#afe9dd;fill-rule:evenodd;stroke:#e88e8e;stroke-width:2.088;stroke-linecap:square;stroke-linejoin:round;paint-order:stroke fill markers"
+       x="56.516129"
+       y="76.645164"
+       id="text404"><tspan
+         sodipodi:role="line"
+         id="tspan402"
+         style="stroke-width:2.088"
+         x="56.516129"
+         y="76.645164">TacoMeter</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:2.088"
+         x="56.516129"
+         y="88.992378"
+         id="tspan406">Measured RPM</tspan></text>
   </g>
 </svg>
