@@ -1,0 +1,24 @@
+#these directories for firmware folder would be ignored to lighten the project
+**/FW/**/Documentation
+**/FW/**/Middleware
+**/FW/**/Project
+**/FW/**/Utilities
+**/FW/**/_ProjectTemplate_
+
+#these directories for hardware folder would be ignored to lighten the project
+**/HW/**/Competition and Similar Products
+**/HW/**/Datasheet
+**/HW/**/Design Guides
+**/HW/**/Development Boards
+**/HW/**/Documentation
+**/HW/**/Errata
+**/HW/**/_ProjectTemplate_
+
+#ignoring history files
+**/History
+
+#ignore document folders
+**/__Documents__
+
+#ignore file structures
+**/Vx.y_MMYYDD

@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4a0b0459-bec0-465a-ba74-2705d15cf2d7)
+
+  (paper "A4")
+
+  (title_block
+    (title "BLDC Driver")
+    (company "Siavash Taher Parvar")
+    (comment 1 "Siavash Taher Parvar")
+    (comment 2 "Siavash Taher Parvar")
+    (comment 3 "Siavash Taher Parvar")
+    (comment 8 "No Variant")
+    (comment 9 "N/A")
+  )
+
+  (lib_symbols
+  )
+
+)

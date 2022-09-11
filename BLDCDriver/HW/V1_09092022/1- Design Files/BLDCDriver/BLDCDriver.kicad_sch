@@ -1,0 +1,99 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e7469551-8798-42c5-be45-8ad11525b929)
+
+  (paper "B")
+
+  (title_block
+    (title "BLDC Driver")
+    (rev "01")
+    (company "Siavash Taher Parvar")
+    (comment 1 "Siavash Taher Parvar")
+    (comment 2 "Siavash Taher Parvar")
+    (comment 3 "Siavash Taher Parvar")
+    (comment 8 "No Variant")
+    (comment 9 "N/A")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 132.08) (size 12.7 3.81)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a36bf357-a423-4311-a806-28e0447b42d9)
+    (property "Sheet name" "BLOCK DIAGRAM" (id 0) (at 64.77 133.35 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "BLOCK DIAGRAM.kicad_sch" (id 1) (at 64.77 133.35 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 50.8 139.7) (size 12.7 3.81)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a67d7cf5-f1db-4cc4-9d01-3e6b825336d5)
+    (property "Sheet name" "PC Interface" (id 0) (at 64.77 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PC Interface.kicad_sch" (id 1) (at 64.77 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/a36bf357-a423-4311-a806-28e0447b42d9" (page "2"))
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/31c8d439-d389-42a2-8ce5-6fba99bf3bed"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/4574f16b-a83f-4939-9bc3-4b575197fd93"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/8834db75-b449-4977-9574-0cdf017262cd"
+      (reference "#PWR?") (unit 1) (value "GND1") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/190afce5-9a2e-42c2-8677-b2306453e5da"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/346ec246-aa75-456c-9232-465cb055dc38"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/710a7a20-7e9e-4e62-9cf6-0a949b6d4c3c"
+      (reference "C?") (unit 1) (value "4u7F") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/c50917fb-255b-4fdc-bf30-2b6a643fc083"
+      (reference "C?") (unit 1) (value "4u7F") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/7a93d8af-a449-4407-9044-be7137b0c975"
+      (reference "D?") (unit 1) (value "LED_BICOLOR") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/25126f90-3187-4bf1-ab56-652eeac97017"
+      (reference "R?") (unit 1) (value "47K5R") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/36dc756f-3764-4a64-b277-254ffe143788"
+      (reference "R?") (unit 1) (value "1KR") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/aac387cc-adcd-494c-a9dd-b1f24c7486c7"
+      (reference "R?") (unit 1) (value "22K1R") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/f33fcb94-bf47-4de1-b966-ba6bb3203912"
+      (reference "R?") (unit 1) (value "1KR") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/fbfbe847-d1ff-45ad-8a85-83c070fd6885"
+      (reference "R?") (unit 1) (value "1KR") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/073cf487-ca17-47bf-b82d-961a0d381e73"
+      (reference "U?") (unit 1) (value "CP2102N") (footprint "")
+    )
+    (path "/a67d7cf5-f1db-4cc4-9d01-3e6b825336d5/0ac2b5b4-9890-4514-89d9-b73cf93b5773"
+      (reference "U?") (unit 1) (value "TVS_5V") (footprint "")
+    )
+  )
+)
