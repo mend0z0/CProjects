@@ -64,7 +64,7 @@
 **************************     STATIC FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
 static void SendDataToSSD1306( unsigned int data );
-static void SendCommandToSSD1306( unsigned int command );
+static void SendCommandToSSD1306( unsigned int *command, unsigned int buffSize);
 
 /****************************************************************************************************
 ****************************         GLOBAL FUNTIONS         ****************************************
@@ -140,8 +140,11 @@ static void SendCommandToSSD1306( unsigned int command );
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
 void _init_SSD1306( void ){
+	unsigned int cmdChargePump[] = {0X8D, 0X14};
+	unsigned int setDisOn = SET_DIS_ON;
 	//enable Charge pump
-	SendCommandToSSD1306( SET_DIS_ON ); // 12
+	SendCommandToSSD1306( cmdChargePump, 2);
+	SendCommandToSSD1306( &setDisOn, 1 ); // 12
 }
 
 /****************************************************************************************************
@@ -286,10 +289,24 @@ static void SendDataToSSD1306( unsigned int data ){
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-static void SendCommandToSSD1306( unsigned int command ){
+static void SendCommandToSSD1306( unsigned int *command, unsigned int buffSize){
 	unsigned int controlByte = 0b10000000;						//0b	C0	D/C	0	0	0	0	0	0 if C0 set to one it means the next data is command and if D/C set to zero it means the next data byte is command
-	unsigned int data[2] = {controlByte, command};
-	SendDataOnI2C( SSD1306_I2C_ADDR, data, 2);
+	unsigned int data[14];
+	
+	buffSize *= 2;
+	
+	if(buffSize > 13){
+		return ;
+	}
+	
+	for(unsigned int counter = 0; counter < buffSize; ++counter){
+		data[counter] = controlByte;
+		counter += 1;
+		data[counter] = *command;
+		command++;
+	}
+	
+	SendDataOnI2C( SSD1306_I2C_ADDR, data, buffSize);
 }
 
 

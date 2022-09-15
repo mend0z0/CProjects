@@ -101,7 +101,7 @@
 ****************************************************************************************************/
 int main(void)
 {
-	unsigned int data[25] = {0Xff,
+	unsigned int data_s[25] = {0Xff,
 		0Xff,
 		0Xff,
 		0Xff,
@@ -127,6 +127,32 @@ int main(void)
 		0Xff,
 		0Xff
 	};
+	unsigned int data_c[25] = {0Xff,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00,
+		0x00
+	};
 	DDRA |= 0X01;
 	PORTA |= (1 << 1);
 	_init_I2C();
@@ -134,8 +160,10 @@ int main(void)
 	/* Replace with your application code */
 	while (1)
 	{	
-		DisplayImgOnSSD1306( data, 25);
+		DisplayImgOnSSD1306( data_s, 25);
 		PORTA ^= 0X01;
+		_delay_ms(500);
+		DisplayImgOnSSD1306( data_c, 25);
 		_delay_ms(500);
 	}
 }
