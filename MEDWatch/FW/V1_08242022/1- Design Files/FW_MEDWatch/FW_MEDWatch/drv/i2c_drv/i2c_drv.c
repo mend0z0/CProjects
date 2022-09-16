@@ -60,17 +60,54 @@
 ****************************   GLOB. VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
 
+
 /****************************************************************************************************
 **************************     STATIC FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
-static void I2CErrorChecker( unsigned int condition);
+static unsigned int I2CErrorChecker( unsigned int condition);
 
 /****************************************************************************************************
 **************************       ISR FUNCTIONS DECLARATION       ************************************
 *****************************************************************************************************/
+
+/****************************************************************************************************
+*				©2022 - 2032 Siavash Taher Parvar All Rights Reserved.
+*
+*		 @Brief Description:
+*			Function Status: 	DRAFT
+*					(DRAFT , PRILIMINARY, CHECKED, RELEASED)
+*	************************************************************************************************
+*	Author:		Siavash Taher Parvar					Checked By:
+*	Date:		mm/dd/yyyy
+*	Version:	xx
+*	Revision:	xx
+*	************************************************************************************************
+*	Function Name:
+*	Function Scope:			Local(static)
+*	Function Parameters:
+*	Function Return Type:
+*	************************************************************************************************
+*	@Detailed Description: (Do numbering and tag the number to each part of code)
+*	(1)
+*	(2)
+*	(3)
+*	.
+*	.
+*	.
+*	************************************************************************************************
+*	Revision History (Description, author, date: mm/dd/yyyy)
+*
+*	************************************************************************************************
+*	License: Private License (Contact for more info.)
+*	Email: s.taherparvar@gmail.com
+****************************************************************************************************/
+
+/*
 ISR(TWI_vect){
-	TWCR |= (1 << TWINT);
-}
+	i2cErrorValue = (TWSR & 0xF8);	// (1)
+	DDRA |= (1 << 2);
+	PORTA ^= (1 << 2);
+}*/
 
 /****************************************************************************************************
 ****************************         GLOBAL FUNTIONS         ****************************************
@@ -142,10 +179,8 @@ ISR(TWI_vect){
 void _init_I2C( void ){
 	DDRC |= (1 << 0) | (1 << 1);
 	
-	TWBR = 2;			// For 400KHz frequency clock on SCL it should be 8000000/(16+(2 * 2 (TWBR) * 4^0(TWPS)))
-	//TWCR |= (1 << TWIE);	// TWI Interrupt Enable
+	TWBR = 2;				// For 400KHz frequency clock on SCL it should be 8000000/(16+(2 * 2 (TWBR) * 4^0(TWPS)))
 	
-	//sei();
 }
 
 /****************************************************************************************************
@@ -180,36 +215,45 @@ void _init_I2C( void ){
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
 unsigned int SendDataOnI2C( unsigned addr, unsigned int *data, unsigned int buffSize){
-	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);	//Send START condition
+	volatile unsigned int i2cErrorValue = 0X00;
 	
-	while (!(TWCR & (1<<TWINT)));				//Wait for TWINT Flag set. This indicates that the START condition has been transmitted
-	
-	if ((TWSR & 0xF8) != START){				//Check value of TWI Status Register. Mask prescaler bits. If status different from	START go to ERROR
-		I2CErrorChecker( START );
+	TWCR = (1 << TWINT) | (1 << TWSTA) | (1 << TWEN);			//Send START condition
+	while(!(TWCR & (1 << TWINT))){
+																// add a timeout if that didn't happen to just return an error and stop the transmission
 	}
-	//-------------------------------------------------------------
-	TWDR = (addr | WRITE);						//Load SLA_W into TWDR Register. Clear TWINT bit in TWCR to start transmission of address
-	TWCR = (1<<TWINT) | (1<<TWEN);
 	
-	while (!(TWCR & (1<<TWINT)));				//Wait for TWINT Flag set. This indicates that the SLA+W has been transmitted, and ACK/NACK has been received.
-	
-	if ((TWSR & 0xF8) != MT_SLA_ACK){			//Check value of TWI Status Register. Mask prescaler bits. If status different from	MT_SLA_ACK go to ERROR
-		I2CErrorChecker( MT_SLA_ACK );	
+	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+	if(i2cErrorValue == 1){
+		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+		return ERROR;
 	}
-	//--------------------------------------------------------------
+	
+	TWDR = (addr | WRITE);
+	TWCR = (1 << TWINT) | (1 << TWEN);
+	while(!(TWCR & (1 << TWINT))){
+																// add a timeout if that didn't happen to just return an error and stop the transmission
+	}
+	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+	if(i2cErrorValue == 1){
+		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+		return ERROR;
+	}
+	
 	for(unsigned int counter = 0; counter < buffSize; ++counter){
-		TWDR = data[counter];									//Load DATA into TWDR Register. Clear TWINT bit in TWCR to start transmission of data
-		TWCR = (1<<TWINT) | (1<<TWEN);
-		
-		while (!(TWCR & (1<<TWINT)));								//Wait for TWINT Flag set. This indicates that the DATA has been transmitted, and ACK/NACK has been received.
-		
-		if ((TWSR & 0xF8) != MT_DATA_ACK){							//Check value of TWI Status Register. Mask prescaler bits. If status different from MT_DATA_ACK go to ERROR
-			I2CErrorChecker(MT_DATA_ACK);
-			//break;
+		TWDR = data[counter];
+		TWCR = (1 << TWINT) | (1 << TWEN);
+		while(!(TWCR & (1 << TWINT))){
+																// add a timeout if that didn't happen to just return an error and stop the transmission
+		}
+		i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+		if(i2cErrorValue == 1){
+			TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);	//Transmit STOP condition
+			return ERROR;
 		}
 	}
-	//-------------------------------------------------------------
-	TWCR |= (1<<TWINT)|(1<<TWEN)|(1<<TWSTO);		//Transmit STOP condition
+	
+	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+	return OK;
 }
 
 /****************************************************************************************************
@@ -243,9 +287,46 @@ unsigned int SendDataOnI2C( unsigned addr, unsigned int *data, unsigned int buff
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-unsigned int *ReceiveDataFromI2C( unsigned addr, unsigned int buffSize){
-	unsigned int data[255] = {0};
-	return 0;
+unsigned int ReceiveDataFromI2C( unsigned addr, unsigned int *data, unsigned int buffSize){
+	volatile unsigned int i2cErrorValue = 0X00;
+	
+	TWCR = (1 << TWINT) | (1 << TWSTA) | (1 << TWEA) | (1 << TWEN);			//Send START condition
+	while(!(TWCR & (1 << TWINT))){
+		// add a timeout if that didn't happen to just return an error and stop the transmission
+	}
+	
+	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+	if(i2cErrorValue == 1){
+		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+		return ERROR;
+	}
+	
+	TWDR = (addr | READ);
+	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
+	while(!(TWCR & (1 << TWINT))){
+		// add a timeout if that didn't happen to just return an error and stop the transmission
+	}
+	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+	if(i2cErrorValue == 1){
+		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+		return ERROR;
+	}
+	
+	for(unsigned int counter = 0; counter < buffSize; ++counter){
+		while(!(TWCR & (1 << TWINT))){
+			// add a timeout if that didn't happen to just return an error and stop the transmission
+		}
+		i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
+		if(i2cErrorValue == 1){
+			TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+			return ERROR;
+		}
+		data[counter] = TWDR;
+		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
+	}
+	
+	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
+	return OK;
 }
 
 /****************************************************************************************************
@@ -315,9 +396,14 @@ unsigned int *ReceiveDataFromI2C( unsigned addr, unsigned int buffSize){
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-static void I2CErrorChecker( unsigned int condition){
-	DDRA |= (1 << 2);
-	PORTA ^= (1 << 2);
+static unsigned int I2CErrorChecker( unsigned int condition){
+	if((condition == MT_SLA_NOT_ACK) || (condition == MT_DATA_NOT_ACK)){
+		return 1;
+	}
+	else if((condition == MR_SLA_NOT_ACK) || (condition == MR_DATA_NOT_ACK)){
+		return 1;
+	}
+	return 0;
 }
 
 /**************************   (C)SIAVASH TAHER PARVAR ALL RIGHTS RESERVED   ************************/

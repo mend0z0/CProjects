@@ -11,7 +11,14 @@ drv/i2c_drv/i2c_drv.d drv/i2c_drv/i2c_drv.o: ../drv/i2c_drv/i2c_drv.c \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
+ D:/Projects/SiavashTP/OSSH/C/MEDWatch/FW/V1_08242022/1-\ Design\ Files/FW_MEDWatch/FW_MEDWatch/main.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
+ d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\i2c_drv\i2c_drv.h \
+ d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\ssd1306_drv\ssd1306_drv.h \
+ d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\i2c_drv\i2c_drv.h
 
 ../drv/i2c_drv/../i2c_drv/i2c_drv.h:
 
@@ -38,3 +45,17 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
+
+D:/Projects/SiavashTP/OSSH/C/MEDWatch/FW/V1_08242022/1-\ Design\ Files/FW_MEDWatch/FW_MEDWatch/main.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+
+d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\i2c_drv\i2c_drv.h:
+
+d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\ssd1306_drv\ssd1306_drv.h:
+
+d:\projects\siavashtp\ossh\c\medwatch\fw\v1_08242022\1-\ design\ files\fw_medwatch\fw_medwatch\drv\i2c_drv\i2c_drv.h:

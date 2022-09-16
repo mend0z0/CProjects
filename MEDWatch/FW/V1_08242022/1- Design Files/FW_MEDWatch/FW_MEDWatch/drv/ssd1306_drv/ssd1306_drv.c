@@ -255,7 +255,7 @@ void DisplayImgOnSSD1306( unsigned int *p_data, unsigned int buffSize){
 static void SendDataToSSD1306( unsigned int data ){
 	unsigned int controlByte = 0b01000000;						//0b	C0	D/C	0	0	0	0	0	0 if C0 set to zero it means the next data is data and if D/C set to 1 it means the next data byte is data
 	unsigned int str_data[2] = {controlByte, data};
-	SendDataOnI2C( SSD1306_I2C_ADDR, str_data, 2);
+	while(SendDataOnI2C( SSD1306_I2C_ADDR, str_data, 2) != OK);
 }
 
 /****************************************************************************************************
@@ -306,7 +306,7 @@ static void SendCommandToSSD1306( unsigned int *command, unsigned int buffSize){
 		command++;
 	}
 	
-	SendDataOnI2C( SSD1306_I2C_ADDR, data, buffSize);
+	while( SendDataOnI2C( SSD1306_I2C_ADDR, data, buffSize) != OK);
 }
 
 

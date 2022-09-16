@@ -15,6 +15,7 @@ main.d main.o: .././main.c .././main.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  .././../FW_MEDWatch/drv/i2c_drv/i2c_drv.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
+ D:/Projects/SiavashTP/OSSH/C/MEDWatch/FW/V1_08242022/1-\ Design\ Files/FW_MEDWatch/FW_MEDWatch/main.h \
  .././../FW_MEDWatch/drv/ssd1306_drv/ssd1306_drv.h \
  .././../FW_MEDWatch/drv/ssd1306_drv/../i2c_drv/i2c_drv.h
 
@@ -51,6 +52,8 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 .././../FW_MEDWatch/drv/i2c_drv/i2c_drv.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
+
+D:/Projects/SiavashTP/OSSH/C/MEDWatch/FW/V1_08242022/1-\ Design\ Files/FW_MEDWatch/FW_MEDWatch/main.h:
 
 .././../FW_MEDWatch/drv/ssd1306_drv/ssd1306_drv.h:
 
