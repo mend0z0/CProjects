@@ -62,8 +62,8 @@
 /****************************************************************************************************
 **************************     STATIC FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
-static unsigned int ReadDataFromDS1307( unsigned int addr );
-static unsigned int WriteDataOnDS1307( unsigned int addr );
+static unsigned int ReadDataFromDS1307( void );
+static unsigned int WriteDataOnDS1307( void );
 
 /****************************************************************************************************
 ****************************         GLOBAL FUNTIONS         ****************************************
@@ -169,8 +169,8 @@ unsigned int _init_DS1307( void ){
 ****************************************************************************************************/
 unsigned int ReadTimeFromDS1307( void ){
 	volatile unsigned int tempVar = 0X00;
-	if( ReadDataFromDS1307() == 0 ){
-		return 0;
+	if( ReadDataFromDS1307() == ERROR ){
+		return ERROR;
 	}
 	tempVar = ds1307.second;
 	ds1307.second = (tempVar & 0X0F);
@@ -199,7 +199,7 @@ unsigned int ReadTimeFromDS1307( void ){
 	ds1307.year = (tempVar & 0X0F);
 	ds1307.year += ( ( ( tempVar & 0XF0 ) >> 4 ) * 10 );
 	
-	return 1;
+	return OK;
 }
 
 /****************************************************************************************************
@@ -234,7 +234,40 @@ unsigned int ReadTimeFromDS1307( void ){
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
 unsigned int WriteTimeOnDS1307( void ){
+	volatile unsigned int tempVar = 0X00;
 	
+	tempVar = ds1307.second;
+	ds1307.second = ( tempVar & 0X0F );
+	ds1307.second |= ( ( ( tempVar / 10 ) & 0X07 ) << 4 );
+	
+	tempVar = ds1307.minute;
+	ds1307.minute = ( tempVar & 0X0F );
+	ds1307.minute |= ( ( ( tempVar / 10 ) & 0X0F ) << 4 );
+	
+	tempVar = ds1307.hour;
+	ds1307.hour = ( tempVar & 0X0F );
+	ds1307.hour |= ( ( ( tempVar / 10 ) & 0X03 ) << 4 );
+	
+	ds1307.day = ds1307.day & 0X07;
+	
+	tempVar = ds1307.date;
+	ds1307.date = (tempVar & 0X0F);
+	ds1307.date |= ( ( ( tempVar / 10 ) & 0X03 ) << 4 );
+	
+	
+	tempVar = ds1307.month;
+	ds1307.month = (tempVar & 0X0F);
+	ds1307.month |= ( ( ( tempVar / 10 ) & 0X01 ) << 4 );
+	
+	tempVar = ds1307.year;
+	ds1307.year = (tempVar & 0X0F);
+	ds1307.year |= ( ( ( tempVar / 10 ) & 0X0F ) << 4 );
+	
+	if( WriteTimeOnDS1307() == ERROR ){
+		return ERROR;
+	}
+	
+	return OK;
 }
 
 /****************************************************************************************************
@@ -340,8 +373,9 @@ static unsigned int ReadDataFromDS1307( void ){
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-static unsigned int WriteDataOnDS1307( unsigned int addr ){
-	
+static unsigned int WriteDataOnDS1307( void ){
+	_init_I2C( I2C_100KHZ );
+	return SendDataOnI2C( DS1307_I2C_ADDR, &ds1307.second, 7);
 }
 
 /**************************   (C)SIAVASH TAHER PARVAR ALL RIGHTS RESERVED   ************************/
