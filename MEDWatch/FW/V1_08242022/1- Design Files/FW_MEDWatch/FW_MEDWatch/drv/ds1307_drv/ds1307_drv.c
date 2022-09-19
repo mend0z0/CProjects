@@ -5,10 +5,10 @@
 *		  @Brief Description:
 *				 File Status:	DRAFT
 *						(DRAFT , PRILIMINARY, CHECKED, RELEASED)
-*	File Name:	i2c_drv.c
+*	File Name:	xxxx.c
 *	Version:	xx
 *	Revision:	xx
-*	Date:		09/14/2022
+*	Date:		mm/dd/yyyy
 *   Company:    Mend0z0
 *	Client:		----------
 *	License:	Private License (Contact for more info.)
@@ -54,60 +54,16 @@
 /****************************************************************************************************
 ****************************       HEADERS DECLARATION       ****************************************
 *****************************************************************************************************/
-#include "../i2c_drv/i2c_drv.h"
 
 /****************************************************************************************************
 ****************************   GLOB. VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
 
-
 /****************************************************************************************************
 **************************     STATIC FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
-static unsigned int I2CErrorChecker( unsigned int condition);
-
-/****************************************************************************************************
-**************************       ISR FUNCTIONS DECLARATION       ************************************
-*****************************************************************************************************/
-
-/****************************************************************************************************
-*				©2022 - 2032 Siavash Taher Parvar All Rights Reserved.
-*
-*		 @Brief Description:
-*			Function Status: 	DRAFT
-*					(DRAFT , PRILIMINARY, CHECKED, RELEASED)
-*	************************************************************************************************
-*	Author:		Siavash Taher Parvar					Checked By:
-*	Date:		mm/dd/yyyy
-*	Version:	xx
-*	Revision:	xx
-*	************************************************************************************************
-*	Function Name:
-*	Function Scope:			Local(static)
-*	Function Parameters:
-*	Function Return Type:
-*	************************************************************************************************
-*	@Detailed Description: (Do numbering and tag the number to each part of code)
-*	(1)
-*	(2)
-*	(3)
-*	.
-*	.
-*	.
-*	************************************************************************************************
-*	Revision History (Description, author, date: mm/dd/yyyy)
-*
-*	************************************************************************************************
-*	License: Private License (Contact for more info.)
-*	Email: s.taherparvar@gmail.com
-****************************************************************************************************/
-
-/*
-ISR(TWI_vect){
-	i2cErrorValue = (TWSR & 0xF8);	// (1)
-	DDRA |= (1 << 2);
-	PORTA ^= (1 << 2);
-}*/
+static unsigned int ReadDataFromDS1307( unsigned int addr );
+static unsigned int WriteDataOnDS1307( unsigned int addr );
 
 /****************************************************************************************************
 ****************************         GLOBAL FUNTIONS         ****************************************
@@ -176,10 +132,7 @@ ISR(TWI_vect){
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-void _init_I2C( unsigned int frequency ){
-	DDRC |= (1 << 0) | (1 << 1);
-	
-	TWBR = frequency;				// For 400KHz frequency clock on SCL it should be 8000000/(16+(2 * 2 (TWBR) * 4^0(TWPS)))
+unsigned int _init_DS1307( void ){
 	
 }
 
@@ -214,46 +167,39 @@ void _init_I2C( unsigned int frequency ){
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-unsigned int SendDataOnI2C( unsigned addr, unsigned int *data, unsigned int buffSize){
-	volatile unsigned int i2cErrorValue = 0X00;
-	
-	TWCR = (1 << TWINT) | (1 << TWSTA) | (1 << TWEN);			//Send START condition
-	while(!(TWCR & (1 << TWINT))){
-																// add a timeout if that didn't happen to just return an error and stop the transmission
+unsigned int ReadTimeFromDS1307( void ){
+	volatile unsigned int tempVar = 0X00;
+	if( ReadDataFromDS1307() == 0 ){
+		return 0;
 	}
+	tempVar = ds1307.second;
+	ds1307.second = (tempVar & 0X0F);
+	ds1307.second += (((tempVar & 0X70) >> 4) * 10);
 	
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
+	tempVar = ds1307.minute;
+	ds1307.minute = (tempVar & 0X0F);
+	ds1307.minute += (((tempVar & 0XF0) >> 4) * 10);
 	
-	TWDR = (addr | WRITE);
-	TWCR = (1 << TWINT) | (1 << TWEN);
-	while(!(TWCR & (1 << TWINT))){
-																// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
+	tempVar = ds1307.hour;
+	ds1307.hour = (tempVar & 0X0F);
+	ds1307.hour += ( ( ( tempVar & 0X30 ) >> 4 ) * 10 );
 	
-	for(unsigned int counter = 0; counter < buffSize; ++counter){
-		TWDR = data[counter];
-		TWCR = (1 << TWINT) | (1 << TWEN);
-		while(!(TWCR & (1 << TWINT))){
-																// add a timeout if that didn't happen to just return an error and stop the transmission
-		}
-		i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-		if(i2cErrorValue == 1){
-			TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);	//Transmit STOP condition
-			return ERROR;
-		}
-	}
+	ds1307.day = ds1307.day & 0X07;
 	
-	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-	return OK;
+	tempVar = ds1307.date;
+	ds1307.date = (tempVar & 0X0F);
+	ds1307.date += ( ( ( tempVar & 0X30 ) >> 4 ) * 10 );
+	
+	
+	tempVar = ds1307.month;
+	ds1307.month = (tempVar & 0X0F);
+	ds1307.month += ( ( ( tempVar & 0X10 ) >> 4 ) * 10 );
+	
+	tempVar = ds1307.year;
+	ds1307.year = (tempVar & 0X0F);
+	ds1307.year += ( ( ( tempVar & 0XF0 ) >> 4 ) * 10 );
+	
+	return 1;
 }
 
 /****************************************************************************************************
@@ -287,79 +233,8 @@ unsigned int SendDataOnI2C( unsigned addr, unsigned int *data, unsigned int buff
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-unsigned int ReceiveDataFromI2C( unsigned int i2cAddr, unsigned regAddr, unsigned int *data, unsigned int buffSize){
-	volatile unsigned int i2cErrorValue = 0X00;
+unsigned int WriteTimeOnDS1307( void ){
 	
-	//----------------------------------------   START CONDITION  -----------------------------------------------
-	TWCR = (1 << TWINT) | (1 << TWSTA) | (1 << TWEA) | (1 << TWEN);			//Send START condition
-	while(!(TWCR & (1 << TWINT))){
-		// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
-	//----------------------------------------   SENDING WRITE + I2C_ADDR CONDITION  -----------------------------------------------
-	TWDR = (i2cAddr | WRITE);
-	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
-	while(!(TWCR & (1 << TWINT))){
-		// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
-	//----------------------------------------   DEFINING THE REG ADDR -----------------------------------------------
-	TWDR = regAddr;
-	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
-	while(!(TWCR & (1 << TWINT))){
-		// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);	//Transmit STOP condition
-		return ERROR;
-	}
-	//----------------------------------------   RE-START CONDITION  -----------------------------------------------
-	TWCR = (1 << TWINT) | (1 << TWSTA) | (1 << TWEA) | (1 << TWEN);			//Send RE-START condition
-	while(!(TWCR & (1 << TWINT))){
-		// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
-	//----------------------------------------   SENDING READ + I2C_ADDR CONDITION  -----------------------------------------------
-	TWDR = (i2cAddr | READ);
-	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
-	while(!(TWCR & (1 << TWINT))){
-		// add a timeout if that didn't happen to just return an error and stop the transmission
-	}
-	i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-	if(i2cErrorValue == 1){
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-		return ERROR;
-	}
-	//----------------------------------------   READING BYTES THAT COMING FROM SLAVE  -----------------------------------------------
-	for(unsigned int counter = 0; counter < buffSize; ++counter){
-		while(!(TWCR & (1 << TWINT))){
-			// add a timeout if that didn't happen to just return an error and stop the transmission
-		}
-		i2cErrorValue = I2CErrorChecker(TWSR & 0xF8);
-		if(i2cErrorValue == 1){
-			TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-			return ERROR;
-		}
-		data[counter] = TWDR;
-		TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWEA);
-	}
-	//----------------------------------------   SENDING STOP CONDITION  -----------------------------------------------
-	TWCR = (1 << TWINT) | (1 << TWEN) | (1 << TWSTO);		//Transmit STOP condition
-	return OK;
 }
 
 /****************************************************************************************************
@@ -429,14 +304,44 @@ unsigned int ReceiveDataFromI2C( unsigned int i2cAddr, unsigned regAddr, unsigne
 *	License: Private License (Contact for more info.)
 *	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
-static unsigned int I2CErrorChecker( unsigned int condition){
-	if((condition == MT_SLA_NOT_ACK) || (condition == MT_DATA_NOT_ACK)){
-		return 1;
-	}
-	else if((condition == MR_SLA_NOT_ACK) || (condition == MR_DATA_NOT_ACK)){
-		return 1;
-	}
-	return 0;
+static unsigned int ReadDataFromDS1307( void ){
+	_init_I2C( I2C_100KHZ );
+	return ReceiveDataFromI2C( DS1307_I2C_ADDR, DS1307_SECONDS, &ds1307.second, 7);
+}
+
+/****************************************************************************************************
+*				©2022 - 2032 Siavash Taher Parvar All Rights Reserved.
+*
+*		 @Brief Description:
+*			Function Status: 	DRAFT
+*					(DRAFT , PRILIMINARY, CHECKED, RELEASED)
+*	************************************************************************************************
+*	Author:		Siavash Taher Parvar					Checked By:
+*	Date:		mm/dd/yyyy
+*	Version:	xx
+*	Revision:	xx
+*	************************************************************************************************
+*	Function Name:
+*	Function Scope:			Local(static)
+*	Function Parameters:
+*	Function Return Type:
+*	************************************************************************************************
+*	@Detailed Description: (Do numbering and tag the number to each part of code)
+*	(1)
+*	(2)
+*	(3)
+*	.
+*	.
+*	.
+*	************************************************************************************************
+*	Revision History (Description, author, date: mm/dd/yyyy)
+*
+*	************************************************************************************************
+*	License: Private License (Contact for more info.)
+*	Email: s.taherparvar@gmail.com
+****************************************************************************************************/
+static unsigned int WriteDataOnDS1307( unsigned int addr ){
+	
 }
 
 /**************************   (C)SIAVASH TAHER PARVAR ALL RIGHTS RESERVED   ************************/

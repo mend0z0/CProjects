@@ -5,10 +5,10 @@
 *		  @Brief Description:
 *				 File Status:	DRAFT
 *						(DRAFT , PRILIMINARY, CHECKED, RELEASED)
-*	File Name:	xxxx.h
-*	Version:	xx
-*	Revision:	xx
-*	Date:		mm/dd/yyyy
+*	File Name:	ds1307_drv.h
+*	Version:	01
+*	Revision:	01
+*	Date:		09/19/2022
 *	Company:	Mend0z0
 *	Client:		-----------
 *	License:	Private License (Contact for more info.)
@@ -51,50 +51,49 @@
 *
 *						CONFIDENTIAL DOCUMENT, DO NOT DISTRIBUTE
 ****************************************************************************************************/
-#ifndef I2C_DRV_H_
-#define I2C_DRV_H_
+#ifndef DS1307_DRV_H_
+#define DS1307_DRV_H_
 /****************************************************************************************************
 ****************************       HEADERS DECLARATION       ****************************************
 *****************************************************************************************************/
-#include "avr/interrupt.h"
-#include "avr/io.h"
-#include "D:/Projects/SiavashTP/OSSH/C/MEDWatch/FW/V1_08242022/1- Design Files/FW_MEDWatch/FW_MEDWatch/main.h"
+#include "../i2c_drv/i2c_drv.h"
 
 /****************************************************************************************************
 ****************************   CONST VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
-//General Constants for I2C peripheral
-#define WRITE				0X00
-#define READ				0X01
-#define START				0X08
-#define	RE_START			0X10
-#define I2C_100KHZ			32
-#define I2C_400KHZ			2
 
-//Status Codes for Master Transmitter Mode
-#define MT_SLA_ACK			0X18
-#define MT_SLA_NOT_ACK		0X20
-#define MT_DATA_ACK			0X28
-#define	MT_DATA_NOT_ACK		0X30
+#define DS1307_I2C_ADDR		0b11010000
 
-//Status Codes for Master Receiver Mode
-#define	MR_SLA_ACK			0X40
-#define MR_SLA_NOT_ACK		0X48
-#define MR_DATA_ACK			0X50
-#define MR_DATA_NOT_ACK		0X58
+#define DS1307_SECONDS		0X00
+#define	DS1307_MINUTES		0X01
+#define	DS1307_HOURS		0X02
+#define	DS1307_DAY			0X03
+#define DS1307_DATE			0X04
+#define DS1307_MONTH		0X05
+#define DS1307_YEAR			0X06
+
 
 /****************************************************************************************************
 ****************************    EXT. VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
+struct {
+	volatile unsigned int second;
+	volatile unsigned int minute;
+	volatile unsigned int hour;
+	volatile unsigned int date;
+	volatile unsigned int day;
+	volatile unsigned int month;
+	volatile unsigned int year;
+}ds1307;
 
 /****************************************************************************************************
 **************************     GLOBAL FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
-void _init_I2C( unsigned int frequency );
-unsigned int SendDataOnI2C( unsigned addr, unsigned int *data, unsigned int buffSize);
-unsigned int ReceiveDataFromI2C( unsigned int i2cAddr, unsigned regAddr, unsigned int *data, unsigned int buffSize);
+unsigned int _init_DS1307( void );
+unsigned int ReadTimeFromDS1307( void );
+unsigned int WriteTimeOnDS1307( void );
 
-#endif /* I2C_DRV_H_  */
+#endif /* DS1307_DRV_H_  */
 
 /****************************************************************************************************
 *	Revision History (Description, author, date: mm/dd/yyyy)
