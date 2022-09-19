@@ -18,7 +18,7 @@
 *	- MPU  (Gyroscope) sensor for measuring the traveled distance (MPU6050)
 *	- OLED Display for displaying the information (SSD1306)
 *	- Push buttons for controlling the smart watch manually
-*	- RTC for tracking the time (DS... peripheral)
+*	- RTC for tracking the time (DS1307)
 *	- USB-C connector, for transferring data through USB and charging in-built battery (it'll be used as a USB to UART) (CP2021)
 *	- Serial Flash to store data in .txt file
 *	- Vibrator for vibration and notification

@@ -15,7 +15,7 @@
 *	******************************** Project Description *******************************************
 *	@Detailed Description: It's a Medical watch that includes the following features
 *	- Heartbeat sensor for observing heartbeats (MAX30102)
-*	- MPU  (Gyroscope) sensor for measuring the traveled distance (MPU6050)
+*	- MPU  (Gyroscope) sensor for measuring the traveled distance (BMI160)
 *	- OLED Display for displaying the information (SSD1306)
 *	- Push buttons for controlling the smart watch manually
 *	- RTC for tracking the time (DS1307)
@@ -51,21 +51,44 @@
 *
 *						CONFIDENTIAL DOCUMENT, DO NOT DISTRIBUTE
 ****************************************************************************************************/
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAX30102_DRV_H_
+#define MAX30102_DRV_H_
 /****************************************************************************************************
 ****************************       HEADERS DECLARATION       ****************************************
 *****************************************************************************************************/
-#include <avr/io.h>
-#include <util/delay.h>
-#include "../FW_MEDWatch/drv/i2c_drv/i2c_drv.h"
-#include "../FW_MEDWatch/drv/ssd1306_drv/ssd1306_drv.h"
+#include "../i2c_drv/i2c_drv.h"
 
 /****************************************************************************************************
 ****************************   CONST VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
-#define ERROR				0X00
-#define OK					0X01
+
+#define MAX30102_I2C_ADDR	0b10101110	//	
+
+//STATUS
+#define INT_STATUS_1		0X00		//	
+#define INT_STATUS_2		0X01		//	
+#define INT_ENABLE_1		0X02		//	
+#define INT_ENABLE_2		0X03		//	
+//FIFO
+#define FIFO_WRITE_POINTER	0X04		//	
+#define OVERFLOW_COUNTER	0X05		//	
+#define FIFO_READ_POINTER	0X06		//	
+#define FIFO_DATA_REGISTER	0X07		//	
+//CONFIGURATION	
+#define FIFO_CONFIG			0X08		//	
+#define MODE_CONFIG			0X09		//	
+#define SPO2_CONFIG			0X0A		//	
+#define LED1_PULSE_AMP		0X0C		//	
+#define	LED2_PULSE_AMP		0X0D		//	
+#define MULTI_LED_CTRL_1	0X11		//	
+#define	MULTI_LED_CTRL_2	0X12		//	
+//DIE TEMPERATURE
+#define DIE_TEMP_INTEG		0X1F		//	
+#define DIE_TEMP_FRAC		0X20		//	
+#define DIE_TEMP_CONFIG		0X21		//	
+//PART ID
+#define REVISION_ID			0XFE		//	
+#define PART_ID				0XFF		//	
 
 /****************************************************************************************************
 ****************************    EXT. VARIABLES DECLARATION    ***************************************
@@ -75,7 +98,7 @@
 **************************     GLOBAL FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
 
-#endif /* MAIN_H_  */
+#endif /* MAX30102_DRV_H_  */
 
 /****************************************************************************************************
 *	Revision History (Description, author, date: mm/dd/yyyy)

@@ -138,10 +138,22 @@
     <Compile Include="drv\bmi160_drv\bmi160_drv.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="drv\ds1307_drv\ds1307_drv.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="drv\ds1307_drv\ds1307_drv.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="drv\i2c_drv\i2c_drv.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="drv\i2c_drv\i2c_drv.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="drv\max30102_drv\max30102_drv.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="drv\max30102_drv\max30102_drv.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="drv\ssd1306_drv\ssd1306_drv.c">
@@ -163,6 +175,7 @@
     <Folder Include="drv\i2c_drv" />
     <Folder Include="drv\max30102_drv" />
     <Folder Include="drv\bmi160_drv" />
+    <Folder Include="drv\ds1307_drv" />
     <Folder Include="drv\ssd1306_drv" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />

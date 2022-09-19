@@ -5,17 +5,17 @@
 *		  @Brief Description:
 *				 File Status:	DRAFT
 *						(DRAFT , PRILIMINARY, CHECKED, RELEASED)
-*	File Name:	xxxx.h
-*	Version:	xx
-*	Revision:	xx
+*	File Name:	max30102.c
+*	Version:	01
+*	Revision:	01
 *	Date:		mm/dd/yyyy
-*	Company:	Mend0z0
-*	Client:		-----------
+*   Company:    Mend0z0
+*	Client:		----------
 *	License:	Private License (Contact for more info.)
 *	******************************** Project Description *******************************************
 *	@Detailed Description: It's a Medical watch that includes the following features
 *	- Heartbeat sensor for observing heartbeats (MAX30102)
-*	- MPU  (Gyroscope) sensor for measuring the traveled distance (MPU6050)
+*	- MPU  (Gyroscope) sensor for measuring the traveled distance (BMI160)
 *	- OLED Display for displaying the information (SSD1306)
 *	- Push buttons for controlling the smart watch manually
 *	- RTC for tracking the time (DS1307)
@@ -28,7 +28,6 @@
 *
 *	******************************** File Description *******************************************
 *	@Detailed Description:
-*
 *
 *
 *
@@ -51,36 +50,93 @@
 *
 *						CONFIDENTIAL DOCUMENT, DO NOT DISTRIBUTE
 ****************************************************************************************************/
-#ifndef MAIN_H_
-#define MAIN_H_
+
 /****************************************************************************************************
 ****************************       HEADERS DECLARATION       ****************************************
 *****************************************************************************************************/
-#include <avr/io.h>
-#include <util/delay.h>
-#include "../FW_MEDWatch/drv/i2c_drv/i2c_drv.h"
-#include "../FW_MEDWatch/drv/ssd1306_drv/ssd1306_drv.h"
+#include "../max30102_drv/max30102_drv.h"
 
 /****************************************************************************************************
-****************************   CONST VARIABLES DECLARATION    ***************************************
-*****************************************************************************************************/
-#define ERROR				0X00
-#define OK					0X01
-
-/****************************************************************************************************
-****************************    EXT. VARIABLES DECLARATION    ***************************************
+****************************   GLOB. VARIABLES DECLARATION    ***************************************
 *****************************************************************************************************/
 
 /****************************************************************************************************
-**************************     GLOBAL FUNCTIONS DECLARATION      ************************************
+**************************     STATIC FUNCTIONS DECLARATION      ************************************
 *****************************************************************************************************/
 
-#endif /* MAIN_H_  */
+/****************************************************************************************************
+****************************         GLOBAL FUNTIONS         ****************************************
+*****************************************************************************************************/
 
 /****************************************************************************************************
+*				©2022 - 2032 Siavash Taher Parvar All Rights Reserved.
+*
+*		 @Brief Description:
+*			Function Status: 	DRAFT
+*					(DRAFT , PRILIMINARY, CHECKED, RELEASED)
+*	************************************************************************************************
+*	Author:		Siavash Taher Parvar					Checked By:
+*	Date:		mm/dd/yyyy
+*	Version:	xx
+*	Revision:	xx
+*	************************************************************************************************
+*	Function Name:
+*	Function Scope:			Global
+*	Function Parameters:
+*	Function Return Type:
+*	************************************************************************************************
+*	@Detailed Description: (Do numbering and tag the number to each part of code)
+*	(1)
+*	(2)
+*	(3)
+*	.
+*	.
+*	.
+*	************************************************************************************************
 *	Revision History (Description, author, date: mm/dd/yyyy)
 *
+*	************************************************************************************************
+*	License: Private License (Contact for more info.)
+*	Email: s.taherparvar@gmail.com
 ****************************************************************************************************/
+
+
+/****************************************************************************************************
+****************************         STATIC FUNTIONS         ****************************************
+*****************************************************************************************************/
+
+/****************************************************************************************************
+*				©2022 - 2032 Siavash Taher Parvar All Rights Reserved.
+*
+*		 @Brief Description:
+*			Function Status: 	DRAFT
+*					(DRAFT , PRILIMINARY, CHECKED, RELEASED)
+*	************************************************************************************************
+*	Author:		Siavash Taher Parvar					Checked By:
+*	Date:		mm/dd/yyyy
+*	Version:	xx
+*	Revision:	xx
+*	************************************************************************************************
+*	Function Name:
+*	Function Scope:			Local(static)
+*	Function Parameters:
+*	Function Return Type:
+*	************************************************************************************************
+*	@Detailed Description: (Do numbering and tag the number to each part of code)
+*	(1)
+*	(2)
+*	(3)
+*	.
+*	.
+*	.
+*	************************************************************************************************
+*	Revision History (Description, author, date: mm/dd/yyyy)
+*
+*	************************************************************************************************
+*	License: Private License (Contact for more info.)
+*	Email: s.taherparvar@gmail.com
+****************************************************************************************************/
+
 
 /**************************   (C)SIAVASH TAHER PARVAR ALL RIGHTS RESERVED   ************************/
 /************************************     END OF THE FILE      *************************************/
