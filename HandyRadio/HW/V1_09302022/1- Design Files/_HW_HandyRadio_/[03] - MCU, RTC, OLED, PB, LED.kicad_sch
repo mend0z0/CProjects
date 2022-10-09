@@ -2226,7 +2226,7 @@
     (uuid f77d0762-bcce-4840-9b86-163a01f11582)
   )
 
-  (hierarchical_label "I2C_SCL" (shape output) (at 262.89 106.68 0)
+  (hierarchical_label "I2C_SCL" (shape bidirectional) (at 262.89 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 08869677-dac9-44e1-8cd9-5e7adbb87b66)
   )

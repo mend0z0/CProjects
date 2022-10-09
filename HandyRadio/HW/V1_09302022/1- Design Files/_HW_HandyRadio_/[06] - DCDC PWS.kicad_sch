@@ -1738,8 +1738,8 @@
   )
 
   (no_connect (at 46.99 87.63) (uuid 0cdddb37-8852-4a32-b7e4-cb646129354a))
-  (no_connect (at 46.99 85.09) (uuid 0cdddb37-8852-4a32-b7e4-cb646129354a))
-  (no_connect (at 46.99 82.55) (uuid 0cdddb37-8852-4a32-b7e4-cb646129354a))
+  (no_connect (at 46.99 85.09) (uuid 0cdddb37-8852-4a32-b7e4-cb646129354b))
+  (no_connect (at 46.99 82.55) (uuid 0cdddb37-8852-4a32-b7e4-cb646129354c))
 
   (wire (pts (xy 182.88 123.19) (xy 182.88 121.92))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3489,8 +3489,8 @@
     (pin "1" (uuid 99dca2d1-ccb5-45dc-950d-1c89c1d228db))
     (pin "2" (uuid 364696d2-633c-443c-9cf9-2659bf31ca92))
     (pin "4" (uuid 3051c2e3-c76f-416e-816e-fb961f2e8db1))
-    (pin "5" (uuid 27a17f94-758b-49b4-857c-9cc9f3a96f21))
-    (pin "5" (uuid 27a17f94-758b-49b4-857c-9cc9f3a96f21))
+    (pin "5" (uuid 27a17f94-758b-49b4-857c-9cc9f3a96f24))
+    (pin "5" (uuid 27a17f94-758b-49b4-857c-9cc9f3a96f24))
     (pin "6" (uuid b092877c-eaf5-4a9c-af2b-41dbcf9f384a))
   )
 )
