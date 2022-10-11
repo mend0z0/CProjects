@@ -1,0 +1,3783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Projects\SiavashTP\OSSH\C\HandyRadio\HW\V1_09302022\1- Design Files\_HW_HandyRadio_\_HW_HandyRadio_.kicad_sch</source>
+    <date>2022-10-11 1:01:52 AM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>_HW_HandyRadio_.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/BLOCK DIAGRAM/" tstamps="/f07683c1-d612-4652-a373-f22afa3b7034/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[02] - BLOCK DIAGRAM.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[03] - MCU, RTC, OLED, PB, LED.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[04] - RF RECEIVER.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[05] - AUDIO AMP.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[06] - DCDC PWS.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/MECHANICAL PARTS/" tstamps="/a064729e-1a89-49f0-9fe3-4916298eeca7/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[07] - MECHANICAL PARTS.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/REVISION HISTORY/" tstamps="/ae9dabf6-7431-4800-9167-b0b9f8d6d6fb/">
+      <title_block>
+        <title>Handy Radio</title>
+        <company>Siavash Taher Parvar</company>
+        <rev>01</rev>
+        <date/>
+        <source>[08] - REVISION HISTORY.kicad_sch</source>
+        <comment number="1" value="Siavash Taher Parvar"/>
+        <comment number="2" value="Siavash Taher Parvar"/>
+        <comment number="3" value="Siavash Taher Parvar"/>
+        <comment number="4" value="N/A"/>
+        <comment number="5" value="N/A"/>
+        <comment number="6" value="N/A"/>
+        <comment number="7" value=""/>
+        <comment number="8" value="NO VARIANT"/>
+        <comment number="9" value="N/A"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_2" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>1de24ebe-bd58-49e8-9243-cd280f2606bd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>4f892ece-6bab-4da6-bbc4-8c123cb3dae5</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_3" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>63208433-b496-43d7-b7a6-b4b15bbd6a9c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10nF" description="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Description" value="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>ca8ea032-7271-4b9d-ab0d-f0ca3bf62a32</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>340661a6-a4d5-4894-a2f3-74011e916656</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>d808159b-437a-4930-b7d4-66d7921bae61</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10nF" description="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Description" value="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>02613d52-45f2-423b-913e-b9f662a67dfa</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>610d4cea-19af-419d-b627-18b2bf87d170</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>2fdac6dd-fb6d-4dda-8415-0fc86eb573a8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_7" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>adfe0715-5052-4165-bb0a-539629492fe1</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>72113843-91f1-48d4-89f1-dc51699f5152</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>1f0b50b8-e546-44d2-b2ad-78281cb20300</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_6" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>2c7dd37e-77f3-4abf-ab5a-bcc5883d3deb</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>274cce3a-8d38-48ed-a01c-714e813893d0</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>b9f0cd9b-5b5b-4726-97e0-347dbad1feaf</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_4" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>d2088e42-8e5f-431a-8035-3d4c74d7bfcf</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_1" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>2bbd9408-c5e4-4ead-a99e-c4893a655c8e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="" part="100nF_5" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>5795263d-969b-48b4-b077-25082e1f5b9f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_R</value>
+      <datasheet>https://assets.cree-led.com/a/ds/h/HB-C5SMF-RJF-RJE-GJF-GJE-BJF-BJE.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RED CLEAR 5MM OVAL T/H</field>
+      </fields>
+      <libsource lib="HandyRadio" part="LED_R" description="LED RED CLEAR 5MM OVAL T/H"/>
+      <property name="Description" value="LED RED CLEAR 5MM OVAL T/H"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>0b4dc258-0803-4371-9420-ec8ef2d5c6bb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>MHDR_4POS_1ROW</value>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+      </fields>
+      <libsource lib="HandyRadio" part="MHDR_4POS_1ROW" description="CONN HEADER VERT 4POS 2.54MM"/>
+      <property name="Description" value="CONN HEADER VERT 4POS 2.54MM"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>646fa1b1-a336-40b2-bce3-34932427e1dd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>RECEP_6POS_1ROW</value>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">RECEPTACLE STRIP 6P 2.54MM PITCH</field>
+      </fields>
+      <libsource lib="HandyRadio" part="RECEP_6POS_1ROW" description="RECEPTACLE STRIP 6P 2.54MM PITCH"/>
+      <property name="Description" value="RECEPTACLE STRIP 6P 2.54MM PITCH"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>a1276800-440c-41ac-b9b6-c7f8a900128f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="" part="10KR_1" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>4382df30-6a64-4980-93ad-886796ff35a8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1KR" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>e89c9dd2-dbdb-4b99-a69c-d97919bc3e82</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1KR" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>ef781fb9-666e-4b28-aea5-901416de40b3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="" part="10KR_2" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>a9510a7e-78d1-4440-a37a-fd35c7c44046</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="" part="10KR_3" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>9ec0f9cd-da99-4d69-9ba6-85394824603f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>0aec84e2-6bd7-4efe-b83d-ee51a339b80f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1KR" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>e6087c05-d40a-4ace-8c35-979ca62e23c5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>92ced51c-96fc-41f9-bf02-6da3092f26d6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>47R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 47 OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="47R" description="RES 47 OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 47 OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>b1b94aa4-55fe-437b-a60c-590532caa91b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="" part="10KR_5" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>60153214-d85a-46f0-9129-a49181c4d762</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="" part="10KR_4" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>6bb198a0-9faf-4aeb-b5e5-7c5d402e039f</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SPST_NO_RA</value>
+      <datasheet>https://www.cuidevices.com/product/resource/ts11.pdf</datasheet>
+      <fields>
+        <field name="Description">6 X 7.4 MM, 5 MM ACTUATOR HEIGHT</field>
+      </fields>
+      <libsource lib="HandyRadio" part="SPST_NO_RA" description="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Description" value="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>c6892d4f-032e-4f5f-9e52-3986d92af85f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SPST_NO_RA</value>
+      <datasheet>https://www.cuidevices.com/product/resource/ts11.pdf</datasheet>
+      <fields>
+        <field name="Description">6 X 7.4 MM, 5 MM ACTUATOR HEIGHT</field>
+      </fields>
+      <libsource lib="HandyRadio" part="SPST_NO_RA" description="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Description" value="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>3e79917b-2c44-40f8-b2cf-afef563b3bc3</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SPST_NO_RA</value>
+      <datasheet>https://www.cuidevices.com/product/resource/ts11.pdf</datasheet>
+      <fields>
+        <field name="Description">6 X 7.4 MM, 5 MM ACTUATOR HEIGHT</field>
+      </fields>
+      <libsource lib="HandyRadio" part="SPST_NO_RA" description="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Description" value="6 X 7.4 MM, 5 MM ACTUATOR HEIGHT"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>269102a7-7277-40c3-804d-8167181dfcc0</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>cbafb288-b59e-41d0-8013-ad80904acf25</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>c099d846-f2e7-4e2d-8ebd-f4c9896cedd6</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>7de9b20d-932c-4535-80f5-2e29b3dcc549</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>e4079f74-2cff-42d1-a950-c25479d6949a</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>44f59764-63bd-4dd2-a88d-02b3da4a57c6</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>8fdd8413-85de-4bd2-9a18-98e9bbdc757e</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>8f29f4d2-5804-4399-bec5-3dcd0c2fd817</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>2bda15b0-27b3-43ea-a6a6-4fbd1132f191</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>7e109787-a95c-4e0e-8253-17844248b7c8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F030F4P6</value>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/a4/5d/0b/0e/87/c4/4d/71/DM00088500.pdf/files/DM00088500.pdf/jcr:content/translations/en.DM00088500.pdf</datasheet>
+      <fields>
+        <field name="Description">IC MCU 32BIT 16KB FLASH 20TSSOP</field>
+      </fields>
+      <libsource lib="HandyRadio" part="STM32F030F4P6" description="IC MCU 32BIT 16KB FLASH 20TSSOP"/>
+      <property name="Description" value="IC MCU 32BIT 16KB FLASH 20TSSOP"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>86a6d6fc-4057-430e-bf8f-1bb38b4b8d52</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>IR_REC_38KHz</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/IRM-8601S-P_Rev1_11-23-05.pdf</datasheet>
+      <fields>
+        <field name="Description">DIP, 9.2X6.8X6MM, FREQ: 38KHZ</field>
+      </fields>
+      <libsource lib="HandyRadio" part="IR_REC_38KHz" description="DIP, 9.2X6.8X6MM, FREQ: 38KHZ"/>
+      <property name="Description" value="DIP, 9.2X6.8X6MM, FREQ: 38KHZ"/>
+      <property name="Sheetname" value="MCU, RTC, OLED, PB, LED"/>
+      <property name="Sheetfile" value="[03] - MCU, RTC, OLED, PB, LED.kicad_sch"/>
+      <sheetpath names="/MCU, RTC, OLED, PB, LED/" tstamps="/efad4c22-2521-4452-a34a-22887b9098bc/"/>
+      <tstamps>556bb441-4d62-4fa1-b938-52aafda667dd</tstamps>
+    </comp>
+    <comp ref="ANT1">
+      <value>WHIP_ANT</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Kitronik%20PDFs/2006_Web.pdf</datasheet>
+      <fields>
+        <field name="Description">RF ANTENNA WHIP STR</field>
+      </fields>
+      <libsource lib="HandyRadio" part="WHIP_ANT" description="RF ANTENNA WHIP STR"/>
+      <property name="Description" value="RF ANTENNA WHIP STR"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>83aa7b8a-edea-44da-b93c-4cf42c3e8a20</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>fac82a78-9ca0-45b4-9e9b-311013f2bd0d</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>16971a88-9b68-43e8-8935-a852c1c94e59</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>33pF</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012007054.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 33PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="33pF" description="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>6aacfccf-b359-45e7-a180-7954a8caf711</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>65fa4add-531d-44ec-b626-9368677cafa6</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>59986d06-cd66-426b-9886-6f27bf8d7179</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uF" description="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>0e74f31e-bf7e-4078-ae96-64bde6121cda</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>18pF</value>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CML.PDF</datasheet>
+      <fields>
+        <field name="Description">CAP CER 18PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="18pF" description="CAP CER 18PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 18PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>c8d9deb5-e3cb-47dd-bb39-a1709268d73d</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>470nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B474KAFNNNE.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.47UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="470nF" description="CAP CER 0.47UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.47UF 25V X7R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>bd177727-2e1a-48f9-98ff-053e701a9b7c</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>6pF</value>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 6PF 50V C0G/NPO 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="6pF" description="CAP CER 6PF 50V C0G/NPO 0805"/>
+      <property name="Description" value="CAP CER 6PF 50V C0G/NPO 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>c9a7257c-46db-4e6c-b151-58cf45c3159b</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>3p3F</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012007048.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 3.3PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3p3F" description="CAP CER 3.3PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 3.3PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>3cc42b21-cf33-4fc0-b711-09339ae262a4</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>fcd6ee35-098a-406f-aefd-9f586b096bf2</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10nF</value>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10nF" description="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Description" value="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>d11af2fd-c77e-4001-bf86-58109228647c</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>3p3F</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012007048.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 3.3PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3p3F" description="CAP CER 3.3PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 3.3PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>c154cbae-a640-4e67-b8c6-ec81e946fbae</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>6pF</value>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 6PF 50V C0G/NPO 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="6pF" description="CAP CER 6PF 50V C0G/NPO 0805"/>
+      <property name="Description" value="CAP CER 6PF 50V C0G/NPO 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>2bc5ca3b-d3e3-41be-9b65-e6afa7a5ac58</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>22nF</value>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C223K1RECAUTO</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0805 22NF 100V X7R 10%</field>
+      </fields>
+      <libsource lib="HandyRadio" part="22nF" description="CAP CER 0805 22NF 100V X7R 10%"/>
+      <property name="Description" value="CAP CER 0805 22NF 100V X7R 10%"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>50c9c01e-04ba-49cb-b659-2721f100c24c</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>33pF</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012007054.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 33PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="33pF" description="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>9152f438-9a87-4dc6-a9bc-e328f89983ce</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>33pF</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012007054.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 33PF 50V C0G/NP0 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="33pF" description="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Description" value="CAP CER 33PF 50V C0G/NP0 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>2b30be57-b11f-48ee-9464-7f5a6629f7ca</tstamps>
+    </comp>
+    <comp ref="EC1">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>15469d77-0215-4ab3-acfd-1b057e49024b</tstamps>
+    </comp>
+    <comp ref="EC2">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>3480274c-574c-4101-9aba-fa9de3072b31</tstamps>
+    </comp>
+    <comp ref="EC3">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>37a2922d-d3e6-4005-9536-9d5775bb6b62</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MHDR_2POS_VERT</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
+      </fields>
+      <libsource lib="HandyRadio" part="MHDR_2POS_VERT" description="CONN HEADER VERT 2POS 2.54MM"/>
+      <property name="Description" value="CONN HEADER VERT 2POS 2.54MM"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>6ae5cad5-4749-42bf-93c5-8b89b545633f</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>DPDT_RELAY</value>
+      <datasheet>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J104D.pdf</datasheet>
+      <fields>
+        <field name="Description">RELAY UL GEN PURP DPDT 2C 3VDC</field>
+      </fields>
+      <libsource lib="HandyRadio" part="DPDT_RELAY" description="RELAY UL GEN PURP DPDT 2C 3VDC"/>
+      <property name="Description" value="RELAY UL GEN PURP DPDT 2C 3VDC"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>c4d43b44-8aa5-4b5b-ac81-b5996f67db10</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4u7H</value>
+      <datasheet>https://www.chilisin.com/upload/media/product/rf/file/BWCS_Series.pdf</datasheet>
+      <fields>
+        <field name="Description">FIXED IND 4.7UH 260MA 4 OHM SMD</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7H" description="FIXED IND 4.7UH 260MA 4 OHM SMD"/>
+      <property name="Description" value="FIXED IND 4.7UH 260MA 4 OHM SMD"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>c17c79a1-afba-4b02-a8c4-abeda6b6ef15</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>180nH</value>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0024.pdf</datasheet>
+      <fields>
+        <field name="Description">FIXED IND 180NH 140MA 2.2OHM SMD</field>
+      </fields>
+      <libsource lib="HandyRadio" part="180nH" description="FIXED IND 180NH 140MA 2.2OHM SMD"/>
+      <property name="Description" value="FIXED IND 180NH 140MA 2.2OHM SMD"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>f8f53f89-b121-4c34-b721-fd22899c380e</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>BLM15GA750SN1D</value>
+      <datasheet>https://www.murata.com/en-us/products/productdata/8796746842142/ENFA0029.pdf</datasheet>
+      <fields>
+        <field name="Description">FERRITE BEAD 75 OHM 0402 1LN</field>
+      </fields>
+      <libsource lib="HandyRadio" part="BLM15GA750SN1D" description="FERRITE BEAD 75 OHM 0402 1LN"/>
+      <property name="Description" value="FERRITE BEAD 75 OHM 0402 1LN"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>d4a5503a-2dae-45ea-b6ba-248784799ab3</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>BLM15GA750SN1D</value>
+      <datasheet>https://www.murata.com/en-us/products/productdata/8796746842142/ENFA0029.pdf</datasheet>
+      <fields>
+        <field name="Description">FERRITE BEAD 75 OHM 0402 1LN</field>
+      </fields>
+      <libsource lib="HandyRadio" part="BLM15GA750SN1D" description="FERRITE BEAD 75 OHM 0402 1LN"/>
+      <property name="Description" value="FERRITE BEAD 75 OHM 0402 1LN"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>e7cf51df-9f35-4c46-884f-9b619139768b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMUN2215LT1G</value>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/dtc114t-d.pdf</datasheet>
+      <fields>
+        <field name="Description">TRANS PREBIAS NPN 50V SOT23-3</field>
+      </fields>
+      <libsource lib="HandyRadio" part="MMUN2215LT1G" description="TRANS PREBIAS NPN 50V SOT23-3"/>
+      <property name="Description" value="TRANS PREBIAS NPN 50V SOT23-3"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>03b31b58-20fd-4f83-aee9-084fb58ac3fc</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>200e2624-d560-4b22-b97c-349fbfc99de7</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>6179d28f-3107-41f7-8b94-87fb42b6e005</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>01212b0c-723d-47a1-b899-bb2b22dec742</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100KR" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>bfb3401e-0ba0-408d-a65d-2e2a5deb113a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2KR" description="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>9039ae80-3b5f-41c1-ba71-d351acafe137</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>330R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 330 OHM 5% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="330R" description="RES 330 OHM 5% 1/8W 0805"/>
+      <property name="Description" value="RES 330 OHM 5% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>3e0a0fc0-be76-4350-8dc1-3272a9f44bfa</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>330R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 330 OHM 5% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="330R" description="RES 330 OHM 5% 1/8W 0805"/>
+      <property name="Description" value="RES 330 OHM 5% 1/8W 0805"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>1469c999-4ce7-4c68-8fb2-65c62e48ff4b</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>f53e28fe-24f6-4ffc-b5b7-514abeaa8dc9</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>9c28fdda-1508-4f8a-a5cd-c80a398cf18d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>EGUARD0502A</value>
+      <datasheet>https://www.smc-diodes.com/propdf/eGuard0502A%20N2179%20REV.-.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE ESD ULTRA LOW CAPACITANCE</field>
+      </fields>
+      <libsource lib="HandyRadio" part="EGUARD0502A" description="DIODE ESD ULTRA LOW CAPACITANCE"/>
+      <property name="Description" value="DIODE ESD ULTRA LOW CAPACITANCE"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>626a5e51-7301-4b56-aad0-35bf580fd97e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SI4735-D60-GU</value>
+      <datasheet>https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si4730-31-34-35-D60.pdf</datasheet>
+      <fields>
+        <field name="Description">RF RX AM/FM 153KHZ-279KHZ 24SSOP</field>
+      </fields>
+      <libsource lib="HandyRadio" part="SI4735-D60-GU" description="RF RX AM/FM 153KHZ-279KHZ 24SSOP"/>
+      <property name="Description" value="RF RX AM/FM 153KHZ-279KHZ 24SSOP"/>
+      <property name="Sheetname" value="RF RECEIVER"/>
+      <property name="Sheetfile" value="[04] - RF RECEIVER.kicad_sch"/>
+      <sheetpath names="/RF RECEIVER/" tstamps="/22a0a8ed-66ea-45e3-9621-dcc1fe7462ea/"/>
+      <tstamps>e3a75b01-b788-4dd5-9fe0-d13b5c738841</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>dc06ae9b-c0d4-41dc-bb9f-b61d49679163</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>f7f0e3a0-45c2-48ac-af4c-acb5215327fe</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>10nF</value>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10nF" description="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Description" value="CAP CER 10000PF 50V X7R 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>6aa301a4-a2d9-415b-bb42-38a3f7e1425e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54ATA</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/bat54srs.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE ARRAY SCHOTTKY 30V SOT23-3</field>
+      </fields>
+      <libsource lib="HandyRadio" part="BAT54ATA" description="DIODE ARRAY SCHOTTKY 30V SOT23-3"/>
+      <property name="Description" value="DIODE ARRAY SCHOTTKY 30V SOT23-3"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>faa49f2a-e1f3-4188-8cea-e4c9a873e4e9</tstamps>
+    </comp>
+    <comp ref="EC4">
+      <value>1uF/16V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 1UF 20% 16V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF{slash}16V" description="CAP TANT 1UF 20% 16V 0805"/>
+      <property name="Description" value="CAP TANT 1UF 20% 16V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>f7cb787f-4dae-4ec2-ad42-de8c0cf24d90</tstamps>
+    </comp>
+    <comp ref="EC5">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>dc4a3acb-b782-4052-a211-e792718ab29e</tstamps>
+    </comp>
+    <comp ref="EC6">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>b6f31b58-f7ed-46e9-83b9-cb1414aa9c8a</tstamps>
+    </comp>
+    <comp ref="EC7">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>1b5c0528-8d20-4763-aef9-70fb5cf3897c</tstamps>
+    </comp>
+    <comp ref="EC8">
+      <value>100uF/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F95.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 100UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100uF{brace}slash}6.3V" description="CAP TANT 100UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 100UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>7f60ebff-291a-4dc8-8087-ebcd75b0da2d</tstamps>
+    </comp>
+    <comp ref="EC9">
+      <value>100uF/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F95.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 100UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100uF{brace}slash}6.3V" description="CAP TANT 100UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 100UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>660387bd-f4c5-413e-afba-1f40588fe144</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>AUDIO_Jack</value>
+      <datasheet>http://www.tensility.com/pdffiles/54-00174.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN JACK 4COND 3.5MM R/A</field>
+      </fields>
+      <libsource lib="HandyRadio" part="AUDIO_Jack" description="CONN JACK 4COND 3.5MM R/A"/>
+      <property name="Description" value="CONN JACK 4COND 3.5MM R/A"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>025964ac-b4bb-411b-a62d-90a58dc5f392</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100KR" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>18bc2503-ef2e-494d-8507-03c494b5b9ce</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100KR" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>4b72ff81-090e-4875-b0a9-d7b3f6488863</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1KR" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>6c6924e2-8577-4f80-8efa-1ad7682f7634</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1KR" description="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 1K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>c26586be-3fdb-4ae9-9db4-f859635cf140</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>3K9R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 3.9K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3K9R" description="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>c581d967-4a79-4f72-b9db-cedf37c8cf59</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>3K9R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 3.9K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3K9R" description="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>a9ca19a8-cecb-4304-aaca-9d4db9cd7357</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>3K9R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 3.9K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3K9R" description="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>851fe6c4-d8ce-4793-9dbe-b8b26fbf0da6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>3K9R</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 3.9K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="3K9R" description="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 3.9K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>c34aaff0-69a1-4d8b-9789-1c8c0f6f30b3</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM4808</value>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4808</datasheet>
+      <fields>
+        <field name="Description">IC AMP CLASS AB STER 150MW 8SOIC</field>
+      </fields>
+      <libsource lib="HandyRadio" part="LM4808" description="IC AMP CLASS AB STER 150MW 8SOIC"/>
+      <property name="Description" value="IC AMP CLASS AB STER 150MW 8SOIC"/>
+      <property name="Sheetname" value="AUDIO AMP"/>
+      <property name="Sheetfile" value="[05] - AUDIO AMP.kicad_sch"/>
+      <sheetpath names="/AUDIO AMP/" tstamps="/37108f87-7c71-4c94-bd78-ff859f67fb5a/"/>
+      <tstamps>9541cf79-8a35-4fd9-a51a-fe73a355a58e</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>2399e590-4c1a-4a37-82a5-b46c7ab735d1</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>b0bec3da-efe7-4062-bd5f-0baa9e7df82a</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>c26ca869-c345-4538-b573-f20662b0246d</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>c0a83f3f-4608-4094-9e34-c7951f4e9eb3</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>0d2f049f-dd13-444c-8fb0-b5ac8f67ddfa</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>eddcd4d6-7e4b-4a56-93b2-1575503de4d1</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>58fcbc9f-51f0-4a35-a3ae-578fa6d17a66</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>d8b042bf-d5c2-4aff-a638-d34a1aaad9ab</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>adba5e1d-8d63-437c-b92f-b5f91250fa2d</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>1b346ec4-e85a-45f2-abb1-4d17ffa6d153</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>d1db770e-4b5c-417f-9bb1-ffc798d100f3</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>1e3e7eb4-d821-4e5e-85c3-04c1a156c0ff</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>7dedc28d-b002-444f-80ef-42137e064664</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>1uF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="1uF" description="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 1UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>3b2a38da-a04b-45f3-9f22-a84580df75c0</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>f5cba042-55b0-44f5-bf0a-a195a63a1e1d</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>812b83ae-da3d-4924-b109-b010217048a8</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>220nF</value>
+      <datasheet>https://www.vishay.com/docs/45199/vjcommercialseries.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.22UF 16V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="220nF" description="CAP CER 0.22UF 16V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.22UF 16V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>bfe651cb-8524-4a00-a21f-fcb9e2f127cb</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>d30ff05a-d93d-4e84-b015-8c912d8cfcbd</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>680pF</value>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012207115.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 680PF 100V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="680pF" description="CAP CER 680PF 100V X7R 0805"/>
+      <property name="Description" value="CAP CER 680PF 100V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>64297dde-0bb6-46fc-8563-1e257053a696</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>100nF</value>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100nF" description="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Description" value="CAP CER 0.1UF 25V X7R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>04f03028-ce41-4f33-b40c-0fb26584c519</tstamps>
+    </comp>
+    <comp ref="C59">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>e16c0437-b0fb-4b21-ba09-3d8280f245c9</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>4u7F</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F" description="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Description" value="CAP CER 4.7UF 25V X5R 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>b1618c3e-94e6-4256-b54b-7f7cbec4fbb1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DSS13U</value>
+      <datasheet>https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf</datasheet>
+      <fields>
+        <field name="Description">SCHOTTKY 30V SOD-123FL</field>
+      </fields>
+      <libsource lib="HandyRadio" part="DSS13U" description="SCHOTTKY 30V SOD-123FL"/>
+      <property name="Description" value="SCHOTTKY 30V SOD-123FL"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>4c68d63e-d4b8-40e0-9250-ccaff0d6ae62</tstamps>
+    </comp>
+    <comp ref="EC10">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>8e3037e7-3d59-46a2-8371-4d48b4afb1b9</tstamps>
+    </comp>
+    <comp ref="EC11">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>c36540ff-a72e-4f28-aa85-1c73b2460a22</tstamps>
+    </comp>
+    <comp ref="EC12">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>c0415d02-c168-47f9-be1f-e0a6b29e1ef3</tstamps>
+    </comp>
+    <comp ref="EC13">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>69d635be-9133-4c84-a456-2718e279b3c0</tstamps>
+    </comp>
+    <comp ref="EC14">
+      <value>4u7F/6.3V</value>
+      <datasheet>https://datasheets.kyocera-avx.com/F92.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="4u7F{brace}slash}6.3V" description="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Description" value="CAP TANT 4.7UF 20% 6.3V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>1db2c36d-6405-4000-a80b-c708c05a6a29</tstamps>
+    </comp>
+    <comp ref="EC15">
+      <value>2u2F/10V</value>
+      <datasheet>https://www.vishay.com/docs/40182/tmch.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2u2F{slash}10V" description="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Description" value="CAP TANT 2.2UF 20% 10V 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>a981be76-327c-45bd-b6bc-e6b6b2e27d23</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_uAB_RECEP</value>
+      <datasheet>https://gct.co/files/specs/usb3090-spec.pdf</datasheet>
+      <fields>
+        <field name="Description">MICRO A/B SKT,BOTTOM-SMT, R/A, 3</field>
+      </fields>
+      <libsource lib="HandyRadio" part="USB_uAB_RECEP" description="MICRO A/B SKT,BOTTOM-SMT, R/A, 3"/>
+      <property name="Description" value="MICRO A/B SKT,BOTTOM-SMT, R/A, 3"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>8766c8ac-e66b-403a-8f92-8bde06da2cf9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>XH_CONN_2POS_R/A</value>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/240566/2sh-c-xx-tr-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">CONN HEADER R/A 2POS 2MM</field>
+      </fields>
+      <libsource lib="HandyRadio" part="XH_CONN_2POS_R{slash}A" description="CONN HEADER R/A 2POS 2MM"/>
+      <property name="Description" value="CONN HEADER R/A 2POS 2MM"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>86754163-3e54-47a9-8475-95e55cefe10f</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>10uH</value>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdfhttps://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdf</datasheet>
+      <fields>
+        <field name="Description">FIXED IND 10UH 1.3A 230 MOHM SMD</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10uH" description="FIXED IND 10UH 1.3A 230 MOHM SMD"/>
+      <property name="Description" value="FIXED IND 10UH 1.3A 230 MOHM SMD"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>8e8b0318-101b-43b0-8104-bb8b6cc11692</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF7401TRPBF</value>
+      <datasheet>https://www.infineon.com/dgdl/irf7401pbf.pdf?fileId=5546d462533600a4015355fa0a6c1b96</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-CH 20V 8.7A 8SO</field>
+      </fields>
+      <libsource lib="HandyRadio" part="IRF7401TRPBF" description="MOSFET N-CH 20V 8.7A 8SO"/>
+      <property name="Description" value="MOSFET N-CH 20V 8.7A 8SO"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>494a15b5-7802-492c-9303-838bc0be4905</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2KR" description="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>57762d50-8bf0-4f65-9328-da9ec35c06ac</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100KR" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>1a1c0987-5a08-49bb-a7ed-0673bb350922</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="100KR" description="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 100K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>a5f7219a-26bf-48c3-9fbb-64e3ff5933a9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>30KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 30K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="30KR" description="RES 30K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 30K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>765a3544-eeeb-42e1-a09a-002d1124c6d1</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>b70ab29a-5f8c-4d62-99b5-72bcd47b7f71</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="10KR" description="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 10K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>5af8d421-18cf-41a7-8bf6-2af61499ab27</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>2KR</value>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 2K OHM 1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="2KR" description="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Description" value="RES 2K OHM 1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>ec86a48b-6325-4963-9ece-b0e390cac7f8</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>POT_5KR</value>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/TC33.pdf</datasheet>
+      <fields>
+        <field name="Description">TRIMMER 5K OHM 0.1W J LEAD TOP</field>
+      </fields>
+      <libsource lib="HandyRadio" part="POT_5KR" description="TRIMMER 5K OHM 0.1W J LEAD TOP"/>
+      <property name="Description" value="TRIMMER 5K OHM 0.1W J LEAD TOP"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>23bc5750-097d-43f3-b614-2c4d137dd388</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>82KR</value>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES SMD 82K OHM 0.1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="82KR" description="RES SMD 82K OHM 0.1% 1/8W 0805"/>
+      <property name="Description" value="RES SMD 82K OHM 0.1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>a60fb812-8049-4fa1-9e93-e4611007f2d9</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>16KR5</value>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES SMD 16.5K OHM 0.1% 1/8W 0805</field>
+      </fields>
+      <libsource lib="HandyRadio" part="16KR5" description="RES SMD 16.5K OHM 0.1% 1/8W 0805"/>
+      <property name="Description" value="RES SMD 16.5K OHM 0.1% 1/8W 0805"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>79fd5011-dca7-4faa-971d-2ce7cbe738bb</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>15d34efa-55ea-489a-9667-dc6845238914</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>f09ca1af-8a19-49b0-8351-9c50451cb681</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>ce912660-8465-4f9c-9dc6-bdbec8d0ecb6</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>8f00cd14-ad5a-48b8-909c-63eb9c8c371a</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>993b35e6-09b9-4f26-b4bd-d1a35b21650f</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>58760a87-7958-4f0b-9b93-a6b8b43c0a8f</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>0278799f-de7c-4fdc-a1ba-6aaf7f873744</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>70b6b47c-4aff-49cb-badf-1ac0dd291c84</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TPC</value>
+      <libsource lib="HandyRadio" part="TPC" description="CIRCLE TEST POINT 40mil"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>95096700-93cd-414c-ac34-a2136d7debc3</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MCP73831</value>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</datasheet>
+      <fields>
+        <field name="Description">IC BATT CNTL LI-ION 1CEL SOT23-5</field>
+      </fields>
+      <libsource lib="HandyRadio" part="MCP73831" description="IC BATT CNTL LI-ION 1CEL SOT23-5"/>
+      <property name="Description" value="IC BATT CNTL LI-ION 1CEL SOT23-5"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>92a2802f-ceda-443e-83c8-774d97ee6d49</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AP7361EA</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7361EA.pdf</datasheet>
+      <fields>
+        <field name="Description">LDO CMOS HICURR SO-8EP T&amp;R 2.5K</field>
+      </fields>
+      <libsource lib="HandyRadio" part="AP7361EA" description="LDO CMOS HICURR SO-8EP T&amp;R 2.5K"/>
+      <property name="Description" value="LDO CMOS HICURR SO-8EP T&amp;R 2.5K"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>d003c2dd-1e2f-4539-870f-961e1f41b0dd</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>R1211N002B</value>
+      <datasheet>https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1211-ea.pdf</datasheet>
+      <fields>
+        <field name="Description">PWM STEP-UP DCDC CONTROLLER</field>
+      </fields>
+      <libsource lib="HandyRadio" part="R1211N002B" description="PWM STEP-UP DCDC CONTROLLER"/>
+      <property name="Description" value="PWM STEP-UP DCDC CONTROLLER"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>fb8cf8a0-caed-4da9-92f4-d1d30d222063</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>MIC5365-3.3</value>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</datasheet>
+      <fields>
+        <field name="Description">IC REG LINEAR 3.3V 150MA SC70-5</field>
+      </fields>
+      <libsource lib="HandyRadio" part="MIC5365-3.3" description="IC REG LINEAR 3.3V 150MA SC70-5"/>
+      <property name="Description" value="IC REG LINEAR 3.3V 150MA SC70-5"/>
+      <property name="Sheetname" value="DCDC PWS"/>
+      <property name="Sheetfile" value="[06] - DCDC PWS.kicad_sch"/>
+      <sheetpath names="/DCDC PWS/" tstamps="/353b262d-d325-4db1-8e45-b7ed2f0254ef/"/>
+      <tstamps>d3748c0b-81d2-48f1-a776-5410f921a5d8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="100nF_1">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_1</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_2">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_2</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_3">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_3</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_4">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_4</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_5">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_5</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_6">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_6</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="100nF_7">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_7</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="10KR_1">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR_1</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="10KR_2">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR_2</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="10KR_3">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR_3</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="10KR_4">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR_4</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="10KR_5">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR_5</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="100KR">
+      <description>RES 100K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100KR</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 100K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="100nF">
+      <description>CAP CER 0.1UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MACNNNC.jsp</field>
+        <field name="Description">CAP CER 0.1UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="100uF{brace}slash}6.3V">
+      <description>CAP TANT 100UF 20% 6.3V 0805</description>
+      <docs>https://datasheets.kyocera-avx.com/F95.pdf</docs>
+      <fields>
+        <field name="Reference">EC</field>
+        <field name="Value">100uF{brace}slash}6.3V</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/F95.pdf</field>
+        <field name="Description">CAP TANT 100UF 20% 6.3V 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="10KR">
+      <description>RES 10K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10KR</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 10K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="10nF">
+      <description>CAP CER 10000PF 50V X7R 0805</description>
+      <docs>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF</field>
+        <field name="Datasheet">https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C103K5RAC7210</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="10uF">
+      <description>CAP CER 10UF 16V X5R 0805</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A106KOQNNNE_Spec.pdf</field>
+        <field name="Description">CAP CER 10UF 16V X5R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="10uH">
+      <description>FIXED IND 10UH 1.3A 230 MOHM SMD</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdfhttps://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">10uH</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdfhttps://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/VLF504012MT.pdf</field>
+        <field name="Description">FIXED IND 10UH 1.3A 230 MOHM SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="16KR5">
+      <description>RES SMD 16.5K OHM 0.1% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">16KR5</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</field>
+        <field name="Description">RES SMD 16.5K OHM 0.1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="180nH">
+      <description>FIXED IND 180NH 140MA 2.2OHM SMD</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0024.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">180nH</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0024.pdf</field>
+        <field name="Description">FIXED IND 180NH 140MA 2.2OHM SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="18pF">
+      <description>CAP CER 18PF 50V C0G/NP0 0805</description>
+      <docs>https://www.seielect.com/Catalog/SEI-CML.PDF</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">18pF</field>
+        <field name="Datasheet">https://www.seielect.com/Catalog/SEI-CML.PDF</field>
+        <field name="Description">CAP CER 18PF 50V C0G/NP0 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="1KR">
+      <description>RES 1K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1KR</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="1uF">
+      <description>CAP CER 1UF 16V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KOFNNNG.jsp</field>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="1uF{slash}16V">
+      <description>CAP TANT 1UF 20% 16V 0805</description>
+      <docs>https://datasheets.kyocera-avx.com/F92.pdf</docs>
+      <fields>
+        <field name="Reference">EC</field>
+        <field name="Value">1uF{slash}16V</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/F92.pdf</field>
+        <field name="Description">CAP TANT 1UF 20% 16V 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="220nF">
+      <description>CAP CER 0.22UF 16V X7R 0805</description>
+      <docs>https://www.vishay.com/docs/45199/vjcommercialseries.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220nF</field>
+        <field name="Datasheet">https://www.vishay.com/docs/45199/vjcommercialseries.pdf</field>
+        <field name="Description">CAP CER 0.22UF 16V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="22nF">
+      <description>CAP CER 0805 22NF 100V X7R 10%</description>
+      <docs>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C223K1RECAUTO</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22nF</field>
+        <field name="Datasheet">https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C223K1RECAUTO</field>
+        <field name="Description">CAP CER 0805 22NF 100V X7R 10%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="2KR">
+      <description>RES 2K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">2KR</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 2K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="2u2F{slash}10V">
+      <description>CAP TANT 2.2UF 20% 10V 0805</description>
+      <docs>https://www.vishay.com/docs/40182/tmch.pdf</docs>
+      <fields>
+        <field name="Reference">EC</field>
+        <field name="Value">2u2F{slash}10V</field>
+        <field name="Datasheet">https://www.vishay.com/docs/40182/tmch.pdf</field>
+        <field name="Description">CAP TANT 2.2UF 20% 10V 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="30KR">
+      <description>RES 30K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">30KR</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 30K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="330R">
+      <description>RES 330 OHM 5% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330R</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 330 OHM 5% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="33pF">
+      <description>CAP CER 33PF 50V C0G/NP0 0805</description>
+      <docs>https://www.we-online.com/katalog/datasheet/885012007054.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">33pF</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/885012007054.pdf</field>
+        <field name="Description">CAP CER 33PF 50V C0G/NP0 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="3K9R">
+      <description>RES 3.9K OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">3K9R</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 3.9K OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="3p3F">
+      <description>CAP CER 3.3PF 50V C0G/NP0 0805</description>
+      <docs>https://www.we-online.com/katalog/datasheet/885012007048.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">3p3F</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/885012007048.pdf</field>
+        <field name="Description">CAP CER 3.3PF 50V C0G/NP0 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="470nF">
+      <description>CAP CER 0.47UF 25V X7R 0805</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B474KAFNNNE.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">470nF</field>
+        <field name="Datasheet">http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B474KAFNNNE.jsp</field>
+        <field name="Description">CAP CER 0.47UF 25V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="47R">
+      <description>RES 47 OHM 1% 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">47R</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 47 OHM 1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="4u7F">
+      <description>CAP CER 4.7UF 25V X5R 0805</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4u7F</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL21A475KAQNNNE_Spec.pdf</field>
+        <field name="Description">CAP CER 4.7UF 25V X5R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="4u7F{brace}slash}6.3V">
+      <description>CAP TANT 4.7UF 20% 6.3V 0805</description>
+      <docs>https://datasheets.kyocera-avx.com/F92.pdf</docs>
+      <fields>
+        <field name="Reference">EC</field>
+        <field name="Value">4u7F{brace}slash}6.3V</field>
+        <field name="Datasheet">https://datasheets.kyocera-avx.com/F92.pdf</field>
+        <field name="Description">CAP TANT 4.7UF 20% 6.3V 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="4u7H">
+      <description>FIXED IND 4.7UH 260MA 4 OHM SMD</description>
+      <docs>https://www.chilisin.com/upload/media/product/rf/file/BWCS_Series.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">4u7H</field>
+        <field name="Datasheet">https://www.chilisin.com/upload/media/product/rf/file/BWCS_Series.pdf</field>
+        <field name="Description">FIXED IND 4.7UH 260MA 4 OHM SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="680pF">
+      <description>CAP CER 680PF 100V X7R 0805</description>
+      <docs>https://www.we-online.com/katalog/datasheet/885012207115.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">680pF</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/885012207115.pdf</field>
+        <field name="Description">CAP CER 680PF 100V X7R 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="6pF">
+      <description>CAP CER 6PF 50V C0G/NPO 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">6pF</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</field>
+        <field name="Description">CAP CER 6PF 50V C0G/NPO 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="82KR">
+      <description>RES SMD 82K OHM 0.1% 1/8W 0805</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">82KR</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</field>
+        <field name="Description">RES SMD 82K OHM 0.1% 1/8W 0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="AP7361EA">
+      <description>LDO CMOS HICURR SO-8EP T&amp;R 2.5K</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP7361EA.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7361EA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP7361EA.pdf</field>
+        <field name="Description">LDO CMOS HICURR SO-8EP T&amp;R 2.5K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="EN" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="AUDIO_Jack">
+      <description>CONN JACK 4COND 3.5MM R/A</description>
+      <docs>http://www.tensility.com/pdffiles/54-00174.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AUDIO_Jack</field>
+        <field name="Datasheet">http://www.tensility.com/pdffiles/54-00174.pdf</field>
+        <field name="Description">CONN JACK 4COND 3.5MM R/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MIC" type="input"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="RIGHT" type="output"/>
+        <pin num="4" name="LEFT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="BAT54ATA">
+      <description>DIODE ARRAY SCHOTTKY 30V SOT23-3</description>
+      <docs>https://www.diodes.com/assets/Datasheets/bat54srs.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54ATA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/bat54srs.pdf</field>
+        <field name="Description">DIODE ARRAY SCHOTTKY 30V SOT23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="BLM15GA750SN1D">
+      <description>FERRITE BEAD 75 OHM 0402 1LN</description>
+      <docs>https://www.murata.com/en-us/products/productdata/8796746842142/ENFA0029.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">BLM15GA750SN1D</field>
+        <field name="Datasheet">https://www.murata.com/en-us/products/productdata/8796746842142/ENFA0029.pdf</field>
+        <field name="Description">FERRITE BEAD 75 OHM 0402 1LN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="DPDT_RELAY">
+      <description>RELAY UL GEN PURP DPDT 2C 3VDC</description>
+      <docs>https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J104D.pdf</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">DPDT_RELAY</field>
+        <field name="Datasheet">https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J104D.pdf</field>
+        <field name="Description">RELAY UL GEN PURP DPDT 2C 3VDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="DSS13U">
+      <description>SCHOTTKY 30V SOD-123FL</description>
+      <docs>https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DSS13U</field>
+        <field name="Datasheet">https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf</field>
+        <field name="Description">SCHOTTKY 30V SOD-123FL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="EGUARD0502A">
+      <description>DIODE ESD ULTRA LOW CAPACITANCE</description>
+      <docs>https://www.smc-diodes.com/propdf/eGuard0502A%20N2179%20REV.-.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EGUARD0502A</field>
+        <field name="Datasheet">https://www.smc-diodes.com/propdf/eGuard0502A%20N2179%20REV.-.pdf</field>
+        <field name="Description">DIODE ESD ULTRA LOW CAPACITANCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="IRF7401TRPBF">
+      <description>MOSFET N-CH 20V 8.7A 8SO</description>
+      <docs>https://www.infineon.com/dgdl/irf7401pbf.pdf?fileId=5546d462533600a4015355fa0a6c1b96</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7401TRPBF</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irf7401pbf.pdf?fileId=5546d462533600a4015355fa0a6c1b96</field>
+        <field name="Description">MOSFET N-CH 20V 8.7A 8SO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="IR_REC_38KHz">
+      <description>DIP, 9.2X6.8X6MM, FREQ: 38KHZ</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/IRM-8601S-P_Rev1_11-23-05.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IR_REC_38KHz</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/IRM-8601S-P_Rev1_11-23-05.pdf</field>
+        <field name="Description">DIP, 9.2X6.8X6MM, FREQ: 38KHZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT" type="output"/>
+        <pin num="2" name="GND" type="power_out"/>
+        <pin num="3" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="LED_R">
+      <description>LED RED CLEAR 5MM OVAL T/H</description>
+      <docs>https://assets.cree-led.com/a/ds/h/HB-C5SMF-RJF-RJE-GJF-GJE-BJF-BJE.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_R</field>
+        <field name="Datasheet">https://assets.cree-led.com/a/ds/h/HB-C5SMF-RJF-RJE-GJF-GJE-BJF-BJE.pdf</field>
+        <field name="Description">LED RED CLEAR 5MM OVAL T/H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="LM4808">
+      <description>IC AMP CLASS AB STER 150MW 8SOIC</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4808</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4808</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4808</field>
+        <field name="Description">IC AMP CLASS AB STER 150MW 8SOIC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="output"/>
+        <pin num="2" name="INA-" type="input"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="INB+" type="input"/>
+        <pin num="6" name="INB-" type="input"/>
+        <pin num="7" name="OUTB" type="output"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="MCP73831">
+      <description>IC BATT CNTL LI-ION 1CEL SOT23-5</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf</field>
+        <field name="Description">IC BATT CNTL LI-ION 1CEL SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_out"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="MHDR_2POS_VERT">
+      <description>CONN HEADER VERT 2POS 2.54MM</description>
+      <docs>https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MHDR_2POS_VERT</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/6130xx11121.pdf</field>
+        <field name="Description">CONN HEADER VERT 2POS 2.54MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="MHDR_4POS_1ROW">
+      <description>CONN HEADER VERT 4POS 2.54MM</description>
+      <docs>https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MHDR_4POS_1ROW</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="MIC5365-3.3">
+      <description>IC REG LINEAR 3.3V 150MA SC70-5</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5365-3.3</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</field>
+        <field name="Description">IC REG LINEAR 3.3V 150MA SC70-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="MMUN2215LT1G">
+      <description>TRANS PREBIAS NPN 50V SOT23-3</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/dtc114t-d.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMUN2215LT1G</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/dtc114t-d.pdf</field>
+        <field name="Description">TRANS PREBIAS NPN 50V SOT23-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="POT_5KR">
+      <description>TRIMMER 5K OHM 0.1W J LEAD TOP</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/TC33.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">POT_5KR</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/TC33.pdf</field>
+        <field name="Description">TRIMMER 5K OHM 0.1W J LEAD TOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="R1211N002B">
+      <description>PWM STEP-UP DCDC CONTROLLER</description>
+      <docs>https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1211-ea.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R1211N002B</field>
+        <field name="Datasheet">https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/r1211-ea.pdf</field>
+        <field name="Description">PWM STEP-UP DCDC CONTROLLER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DELAY" type="passive"/>
+        <pin num="2" name="CE" type="passive"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="EXT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="RECEP_6POS_1ROW">
+      <description>RECEPTACLE STRIP 6P 2.54MM PITCH</description>
+      <docs>https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RECEP_6POS_1ROW</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/203013/rs1-xx-g-data-sheet.pdf</field>
+        <field name="Description">RECEPTACLE STRIP 6P 2.54MM PITCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="SI4735-D60-GU">
+      <description>RF RX AM/FM 153KHZ-279KHZ 24SSOP</description>
+      <docs>https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si4730-31-34-35-D60.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SI4735-D60-GU</field>
+        <field name="Datasheet">https://www.skyworksinc.com/-/media/Skyworks/SL/documents/public/data-sheets/Si4730-31-34-35-D60.pdf</field>
+        <field name="Description">RF RX AM/FM 153KHZ-279KHZ 24SSOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="DFS" type="input"/>
+        <pin num="3" name="GPO3/DCLK" type="bidirectional"/>
+        <pin num="4" name="GPO2/~{INT}" type="output"/>
+        <pin num="5" name="GPO1" type="output"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="FMI" type="passive"/>
+        <pin num="9" name="RFGND" type="power_out"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="AMI" type="passive"/>
+        <pin num="13" name="GND" type="power_out"/>
+        <pin num="14" name="GND" type="power_out"/>
+        <pin num="15" name="~{RST}" type="input"/>
+        <pin num="16" name="~{SEN}" type="input"/>
+        <pin num="17" name="SCLK" type="input"/>
+        <pin num="18" name="SDIO" type="input"/>
+        <pin num="19" name="RCLK" type="input"/>
+        <pin num="20" name="VIO" type="power_in"/>
+        <pin num="21" name="VDD" type="power_in"/>
+        <pin num="22" name="DBYP" type="passive"/>
+        <pin num="23" name="ROUT" type="output"/>
+        <pin num="24" name="LOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="SPST_NO_RA">
+      <description>6 X 7.4 MM, 5 MM ACTUATOR HEIGHT</description>
+      <docs>https://www.cuidevices.com/product/resource/ts11.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST_NO_RA</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/ts11.pdf</field>
+        <field name="Description">6 X 7.4 MM, 5 MM ACTUATOR HEIGHT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="STM32F030F4P6">
+      <description>IC MCU 32BIT 16KB FLASH 20TSSOP</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/a4/5d/0b/0e/87/c4/4d/71/DM00088500.pdf/files/DM00088500.pdf/jcr:content/translations/en.DM00088500.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030F4P6</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/datasheet/a4/5d/0b/0e/87/c4/4d/71/DM00088500.pdf/files/DM00088500.pdf/jcr:content/translations/en.DM00088500.pdf</field>
+        <field name="Description">IC MCU 32BIT 16KB FLASH 20TSSOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT0" type="bidirectional"/>
+        <pin num="2" name="PF0-OSC_IN" type="bidirectional"/>
+        <pin num="3" name="PF1-OSC_OUT" type="bidirectional"/>
+        <pin num="4" name="NRST" type="passive"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="bidirectional"/>
+        <pin num="7" name="PA1" type="bidirectional"/>
+        <pin num="8" name="PA2" type="bidirectional"/>
+        <pin num="9" name="PA3" type="bidirectional"/>
+        <pin num="10" name="PA4" type="bidirectional"/>
+        <pin num="11" name="PA5" type="bidirectional"/>
+        <pin num="12" name="PA6" type="bidirectional"/>
+        <pin num="13" name="PA7" type="bidirectional"/>
+        <pin num="14" name="PB1" type="bidirectional"/>
+        <pin num="15" name="VSS" type="power_out"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA9" type="bidirectional"/>
+        <pin num="18" name="PA10" type="bidirectional"/>
+        <pin num="19" name="PA13" type="bidirectional"/>
+        <pin num="20" name="PA14" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="TPC">
+      <description>CIRCLE TEST POINT 40mil</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TPC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="USB_uAB_RECEP">
+      <description>MICRO A/B SKT,BOTTOM-SMT, R/A, 3</description>
+      <docs>https://gct.co/files/specs/usb3090-spec.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_uAB_RECEP</field>
+        <field name="Datasheet">https://gct.co/files/specs/usb3090-spec.pdf</field>
+        <field name="Description">MICRO A/B SKT,BOTTOM-SMT, R/A, 3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="WHIP_ANT">
+      <description>RF ANTENNA WHIP STR</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Kitronik%20PDFs/2006_Web.pdf</docs>
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">WHIP_ANT</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Kitronik%20PDFs/2006_Web.pdf</field>
+        <field name="Description">RF ANTENNA WHIP STR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HandyRadio" part="XH_CONN_2POS_R{slash}A">
+      <description>CONN HEADER R/A 2POS 2MM</description>
+      <docs>https://app.adam-tech.com/products/download/data_sheet/240566/2sh-c-xx-tr-data-sheet.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XH_CONN_2POS_R{slash}A</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/240566/2sh-c-xx-tr-data-sheet.pdf</field>
+        <field name="Description">CONN HEADER R/A 2POS 2MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="HandyRadio">
+      <uri>D:/Projects/SiavashTP/OSSH/C/BLDCDriver/HW/V1_09092022/1- Design Files/_Project_Template_/_ProjectTemplate_/HandyRadio.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="EC14" pin="1" pintype="passive"/>
+      <node ref="TP17" pin="1" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="EC1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U4" pin="20" pinfunction="VIO" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="EC12" pin="1" pintype="passive"/>
+      <node ref="EC2" pin="1" pintype="passive"/>
+      <node ref="EC3" pin="1" pintype="passive"/>
+      <node ref="EC5" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pintype="input"/>
+      <node ref="U4" pin="21" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U9" pin="1" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="4" name="+6V">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="EC13" pin="1" pintype="passive"/>
+      <node ref="EC15" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="TP20" pin="1" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="5" name="+BATT">
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="EC10" pin="1" pintype="passive"/>
+      <node ref="EC11" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="L5" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="VBAT" pintype="power_out"/>
+      <node ref="U8" pin="4" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="6" name="/AUDIO AMP/AUDIO_L">
+      <node ref="EC6" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/AUDIO AMP/AUDIO_LEFT">
+      <node ref="EC8" pin="2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="LEFT" pintype="output"/>
+    </net>
+    <net code="8" name="/AUDIO AMP/AUDIO_R">
+      <node ref="EC7" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/AUDIO AMP/AUDIO_RIGHT">
+      <node ref="EC9" pin="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="RIGHT" pintype="output"/>
+    </net>
+    <net code="10" name="/AUDIO AMP/BEEP_SIG">
+      <node ref="D2" pin="3" pintype="passive"/>
+    </net>
+    <net code="11" name="/AUDIO AMP/IN+">
+      <node ref="EC4" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="INA+" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="INB+" pintype="input"/>
+    </net>
+    <net code="12" name="/AUDIO AMP/INA-">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="INA-" pintype="input"/>
+    </net>
+    <net code="13" name="/AUDIO AMP/INB-">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="INB-" pintype="input"/>
+    </net>
+    <net code="14" name="/DCDC PWS/BATT_STAT">
+      <node ref="U6" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="15" name="/DCDC PWS/DELAY">
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="DELAY" pintype="passive"/>
+    </net>
+    <net code="16" name="/MCU, RTC, OLED, PB, LED/BATT_STAT">
+      <node ref="TP4" pin="1" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/MCU, RTC, OLED, PB, LED/BEEP_OUPUT">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/MCU, RTC, OLED, PB, LED/BEEP_SIG">
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/MCU, RTC, OLED, PB, LED/FM{slash}SW_SEL">
+      <node ref="U1" pin="9" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MCU, RTC, OLED, PB, LED/I2C_SCL">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="TP5" pin="1" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/MCU, RTC, OLED, PB, LED/I2C_SDA">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="TP6" pin="1" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/MCU, RTC, OLED, PB, LED/IR_INPUT">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="23" name="/MCU, RTC, OLED, PB, LED/LED_IND">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/MCU, RTC, OLED, PB, LED/MCU_BOOT0">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/MCU, RTC, OLED, PB, LED/MCU_NRST">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="NRST" pintype="passive"/>
+    </net>
+    <net code="26" name="/MCU, RTC, OLED, PB, LED/OLED_RST">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/MCU, RTC, OLED, PB, LED/SWCLK">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/MCU, RTC, OLED, PB, LED/SWDIO">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/RF RECEIVER/AUDIO_L">
+      <node ref="U4" pin="24" pinfunction="LOUT" pintype="output"/>
+    </net>
+    <net code="30" name="/RF RECEIVER/AUDIO_R">
+      <node ref="U4" pin="23" pinfunction="ROUT" pintype="output"/>
+    </net>
+    <net code="31" name="/RF RECEIVER/FM{slash}SW_SEL">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pintype="input"/>
+    </net>
+    <net code="32" name="/RF RECEIVER/I2C_SCL">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="33" name="/RF RECEIVER/I2C_SDA">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="SDIO" pintype="input"/>
+    </net>
+    <net code="34" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="C59" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="EC1" pin="2" pintype="passive"/>
+      <node ref="EC10" pin="2" pintype="passive"/>
+      <node ref="EC11" pin="2" pintype="passive"/>
+      <node ref="EC12" pin="2" pintype="passive"/>
+      <node ref="EC13" pin="2" pintype="passive"/>
+      <node ref="EC14" pin="2" pintype="passive"/>
+      <node ref="EC15" pin="2" pintype="passive"/>
+      <node ref="EC2" pin="2" pintype="passive"/>
+      <node ref="EC3" pin="2" pintype="passive"/>
+      <node ref="EC4" pin="2" pintype="passive"/>
+      <node ref="EC5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="input"/>
+      <node ref="J4" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="J5" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R34" pin="3" pintype="input"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pintype="input"/>
+      <node ref="TP14" pin="1" pintype="input"/>
+      <node ref="TP15" pin="1" pintype="input"/>
+      <node ref="TP18" pin="1" pintype="input"/>
+      <node ref="TP19" pin="1" pintype="input"/>
+      <node ref="TP2" pin="1" pintype="input"/>
+      <node ref="TP7" pin="1" pintype="input"/>
+      <node ref="TP8" pin="1" pintype="input"/>
+      <node ref="TP9" pin="1" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_out"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="GND" pintype="power_out"/>
+      <node ref="U4" pin="14" pinfunction="GND" pintype="power_out"/>
+      <node ref="U4" pin="9" pinfunction="RFGND" pintype="power_out"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U6" pin="2" pinfunction="VSS" pintype="power_out"/>
+      <node ref="U7" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U8" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="35" name="Net-(ANT1-Pad1)">
+      <node ref="ANT1" pin="1" pintype="input"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="39" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="input"/>
+      <node ref="K1" pin="7" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="K1" pin="6" pintype="passive"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="AMI" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(C32-Pad2)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="L4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="FMI" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(C33-Pad2)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="DBYP" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GPO2/~{INT}" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(C35-Pad2)">
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="GPO1" pintype="output"/>
+    </net>
+    <net code="51" name="Net-(C40-Pad2)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="52" name="Net-(C57-Pad1)">
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="TP16" pin="1" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="L5" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(EC6-Pad1)">
+      <node ref="EC6" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(EC7-Pad1)">
+      <node ref="EC7" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(EC8-Pad1)">
+      <node ref="EC8" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="OUTA" pintype="output"/>
+    </net>
+    <net code="60" name="Net-(EC9-Pad1)">
+      <node ref="EC9" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="OUTB" pintype="output"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(K1-Pad5)">
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="Q1" pin="3" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(K1-Pad8)">
+      <node ref="K1" pin="8" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q2-Pad4)">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="EXT" pintype="power_out"/>
+    </net>
+    <net code="65" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="~{SEN}" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="PROG" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="CE" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="VFB" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="MIC" pintype="input+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="ID" pintype="input+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(K1-Pad1)">
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(K1-Pad2)">
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="unconnected-(K1-Pad3)">
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PF0-OSC_IN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PF1-OSC_OUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="DFS" pintype="input+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pinfunction="GPO3/DCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-Pad10)">
+      <node ref="U4" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-Pad19)">
+      <node ref="U4" pin="19" pinfunction="RCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U7-Pad7)">
+      <node ref="U7" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U9-Pad4)">
+      <node ref="U9" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
