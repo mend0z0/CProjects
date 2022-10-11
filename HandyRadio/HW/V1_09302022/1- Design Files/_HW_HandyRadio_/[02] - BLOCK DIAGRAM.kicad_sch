@@ -4,6 +4,20 @@
 
   (paper "B")
 
+  (title_block
+    (title "Handy Radio")
+    (rev "01")
+    (company "Siavash Taher Parvar")
+    (comment 1 "Siavash Taher Parvar")
+    (comment 2 "Siavash Taher Parvar")
+    (comment 3 "Siavash Taher Parvar")
+    (comment 4 "N/A")
+    (comment 5 "N/A")
+    (comment 6 "N/A")
+    (comment 8 "NO VARIANT")
+    (comment 9 "N/A")
+  )
+
   (lib_symbols
   )
 

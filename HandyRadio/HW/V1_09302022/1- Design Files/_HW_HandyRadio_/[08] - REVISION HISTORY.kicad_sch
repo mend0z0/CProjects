@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid e7522efe-a83f-4caf-9c3f-39090956bd88)
+  (uuid 3d94535d-f641-4356-9804-9c0774aee492)
 
   (paper "B")
 
@@ -21,10 +21,4 @@
   (lib_symbols
   )
 
-
-  (text "add an OLED display\n\nadd a Ferrite bead antenna\n\nadd a earpod\n\nadd a lithium battery\n\nadd a box\n\nadd a PCB\n\nadd labels"
-    (at 134.62 163.83 0)
-    (effects (font (size 3 3)) (justify left bottom))
-    (uuid adf46f1e-4451-41d9-89c5-5b783937edbc)
-  )
 )
