@@ -1290,7 +1290,7 @@
       (reference "U7") (unit 1) (value "AP7361EA") (footprint "")
     )
     (path "/353b262d-d325-4db1-8e45-b7ed2f0254ef/fb8cf8a0-caed-4da9-92f4-d1d30d222063"
-      (reference "U8") (unit 1) (value "R1211N002B") (footprint "")
+      (reference "U8") (unit 1) (value "R1211N002B") (footprint "Relay_THT:Relay_DPDT_AXICOM_IMSeries_Pitch5.08mm")
     )
     (path "/353b262d-d325-4db1-8e45-b7ed2f0254ef/d3748c0b-81d2-48f1-a776-5410f921a5d8"
       (reference "U9") (unit 1) (value "MIC5365-3.3") (footprint "")
