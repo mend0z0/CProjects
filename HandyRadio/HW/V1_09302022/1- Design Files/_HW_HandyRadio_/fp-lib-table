@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "_HW_HandyRadio_Footprint")(type "KiCad")(uri "${KIPRJMOD}/_HW_HandyRadio_Footprint.pretty")(options "")(descr ""))
+)

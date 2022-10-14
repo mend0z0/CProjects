@@ -933,8 +933,8 @@
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/4c68d63e-d4b8-40e0-9250-ccaff0d6ae62"
       (reference "D3") (unit 1) (value "DSS13U") (footprint "Diode_SMD:D_SOD-123F")
     )
-    (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/b3d9a4f5-4419-4a37-ab17-96e699355afe"
-      (reference "DIS1") (unit 1) (value "OLED") (footprint "")
+    (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/aee49a65-9e7e-49e5-a384-c7b120c8b553"
+      (reference "DIS1") (unit 1) (value "OLED") (footprint "_HW_HandyRadio_Footprint:OLED 1.3INCH")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/1abdefe7-cbc5-4089-942e-969ef2e2d8d9/f258be6c-406e-4392-ad75-f05d914fa110"
       (reference "EC1") (unit 1) (value "1uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder")
@@ -1003,10 +1003,10 @@
       (reference "J2") (unit 1) (value "RECEP_6POS_1ROW") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/1abdefe7-cbc5-4089-942e-969ef2e2d8d9/025964ac-b4bb-411b-a62d-90a58dc5f392"
-      (reference "J3") (unit 1) (value "AUDIO_Jack") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal")
+      (reference "J3") (unit 1) (value "AUDIO_Jack") (footprint "_HW_HandyRadio_Footprint:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/8766c8ac-e66b-403a-8f92-8bde06da2cf9"
-      (reference "J4") (unit 1) (value "USB_uAB_RECEP") (footprint "Connector_USB:USB_Micro-AB_Molex_47590-0001")
+      (reference "J4") (unit 1) (value "USB_uAB_RECEP") (footprint "_HW_HandyRadio_Footprint:USB_Micro-AB_Molex_47590-0001")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/86754163-3e54-47a9-8475-95e55cefe10f"
       (reference "J5") (unit 1) (value "XH_CONN_2POS_R/A") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
@@ -1135,7 +1135,7 @@
       (reference "R29") (unit 1) (value "2KR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/23bc5750-097d-43f3-b614-2c4d137dd388"
-      (reference "R30") (unit 1) (value "POT_5KR") (footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical")
+      (reference "R30") (unit 1) (value "POT_5KR") (footprint "_HW_HandyRadio_Footprint:Potentiometer_Bourns_TC33X_Vertical")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/a60fb812-8049-4fa1-9e93-e4611007f2d9"
       (reference "R31") (unit 1) (value "82KR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1168,13 +1168,13 @@
       (reference "R40") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/8d9a9120-a956-4665-90cc-816ab2b02801/c6892d4f-032e-4f5f-9e52-3986d92af85f"
-      (reference "SW1") (unit 1) (value "SPST_NO_RA") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
+      (reference "SW1") (unit 1) (value "SPST_NO_RA") (footprint "_HW_HandyRadio_Footprint:SW_Tact_SKHH_Angled")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/8d9a9120-a956-4665-90cc-816ab2b02801/3e79917b-2c44-40f8-b2cf-afef563b3bc3"
-      (reference "SW2") (unit 1) (value "SPST_NO_RA") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
+      (reference "SW2") (unit 1) (value "SPST_NO_RA") (footprint "_HW_HandyRadio_Footprint:SW_Tact_SKHH_Angled")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/8d9a9120-a956-4665-90cc-816ab2b02801/269102a7-7277-40c3-804d-8167181dfcc0"
-      (reference "SW3") (unit 1) (value "SPST_NO_RA") (footprint "Button_Switch_THT:SW_Tactile_SKHH_Angled")
+      (reference "SW3") (unit 1) (value "SPST_NO_RA") (footprint "_HW_HandyRadio_Footprint:SW_Tact_SKHH_Angled")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/8d9a9120-a956-4665-90cc-816ab2b02801/cbafb288-b59e-41d0-8013-ad80904acf25"
       (reference "TP1") (unit 1) (value "TPC") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
@@ -1246,13 +1246,13 @@
       (reference "U2") (unit 1) (value "IR_REC_38KHz") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/1abdefe7-cbc5-4089-942e-969ef2e2d8d9/9541cf79-8a35-4fd9-a51a-fe73a355a58e"
-      (reference "U3") (unit 1) (value "LM4808") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
+      (reference "U3") (unit 1) (value "LM4808") (footprint "_HW_HandyRadio_Footprint:SOP-8_3.9x4.9mm_P1.27mm")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/92a2802f-ceda-443e-83c8-774d97ee6d49"
       (reference "U4") (unit 1) (value "MCP73831") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/d003c2dd-1e2f-4539-870f-961e1f41b0dd"
-      (reference "U5") (unit 1) (value "AP7361EA") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias")
+      (reference "U5") (unit 1) (value "AP7361EA") (footprint "_HW_HandyRadio_Footprint:Infineon_PG-DSO-8-27_3.9x4.9mm_EP2.65x3mm_ThermalVias")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/fb8cf8a0-caed-4da9-92f4-d1d30d222063"
       (reference "U6") (unit 1) (value "R1211N002B") (footprint "Package_TO_SOT_SMD:SOT-23-6_Handsoldering")
