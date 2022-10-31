@@ -663,9 +663,6 @@
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/c64f2301-8f26-49b2-a5ba-669c9ffa42fa"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/9a826b83-0128-4f44-8833-c9e11dc49671"
-      (reference "#PWR049") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/15e1aa7f-d8e0-4892-ae49-0b07b63e4f9c"
       (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
@@ -722,6 +719,9 @@
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/a6c9273d-8982-4287-a07c-12319e35a76f/63179e9d-05f4-4a19-81f6-ed9422e4b5d1"
       (reference "#PWR068") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f07683c1-d612-4652-a373-f22afa3b7034/e55e3965-bce4-482a-b2e7-f0f0a68e8a77/56c2be2a-3c77-4450-90ed-094fe46bc7e8"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/ab015baa-4b60-4851-bbd9-b7e467295e5a"
       (reference "ANT1") (unit 1) (value "FERRITE_ANTENNA") (footprint "")
