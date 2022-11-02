@@ -973,16 +973,16 @@
       (reference "H1") (unit 1) (value "BOX") (footprint "")
     )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/969c9bb8-d2c6-4917-b5e9-ded20264984f"
-      (reference "H2") (unit 1) (value "MOUNTING_HOLE") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H2") (unit 1) (value "MOUNTING_HOLE") (footprint "_HW_HandyRadio_Footprint:MountingHole_3.2mm_M3")
     )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/aa0320c3-915e-49ae-9d4d-6a29b5398b92"
-      (reference "H3") (unit 1) (value "MOUNTING_HOLE") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H3") (unit 1) (value "MOUNTING_HOLE") (footprint "_HW_HandyRadio_Footprint:MountingHole_3.2mm_M3")
     )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/4e43f22d-618d-4ce8-a819-df8950247c06"
-      (reference "H4") (unit 1) (value "MOUNTING_HOLE") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H4") (unit 1) (value "MOUNTING_HOLE") (footprint "_HW_HandyRadio_Footprint:MountingHole_3.2mm_M3")
     )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/334a437e-fe03-4fcc-9e43-df08b1c612e6"
-      (reference "H5") (unit 1) (value "MOUNTING_HOLE") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H5") (unit 1) (value "MOUNTING_HOLE") (footprint "_HW_HandyRadio_Footprint:MountingHole_3.2mm_M3")
     )
     (path "/f07683c1-d612-4652-a373-f22afa3b7034/8d9a9120-a956-4665-90cc-816ab2b02801/646fa1b1-a336-40b2-bce3-34932427e1dd"
       (reference "J1") (unit 1) (value "MHDR_4POS_1ROW") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
