@@ -343,7 +343,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "HandyRadio"
+    ]
   },
   "meta": {
     "filename": "_HW_HandyRadio_.kicad_pro",
