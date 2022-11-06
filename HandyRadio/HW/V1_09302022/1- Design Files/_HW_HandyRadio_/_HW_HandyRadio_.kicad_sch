@@ -1023,6 +1023,9 @@
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/1c29af2c-3df0-4e14-bf9a-6aa43e897f58"
       (reference "LBL601") (unit 1) (value "LABLES") (footprint "")
     )
+    (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/ff75cb46-d2ed-4e4d-adae-d15c19d1ffea"
+      (reference "LBL602") (unit 1) (value "Mend0z0_LOGO") (footprint "_HW_HandyRadio_Footprint:Logo")
+    )
     (path "/a064729e-1a89-49f0-9fe3-4916298eeca7/af25d903-df9b-43d1-997f-566dae8ade6c"
       (reference "PCB601") (unit 1) (value "PCB") (footprint "")
     )
