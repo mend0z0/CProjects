@@ -502,11 +502,11 @@
         )
       )
     )
-    (symbol "HandyRadio:2u2F{brace}slash}10V" (in_bom yes) (on_board yes)
-      (property "Reference" "EC" (id 0) (at 15.24 1.27 0)
+    (symbol "HandyRadio:2u2F{slash}10V" (in_bom yes) (on_board yes)
+      (property "Reference" "TC" (id 0) (at 15.24 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "2u2F{brace}slash}10V" (id 1) (at -6.35 1.27 0)
+      (property "Value" "2u2F{slash}10V" (id 1) (at -6.35 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" (id 2) (at 6.35 7.62 0)
@@ -524,7 +524,7 @@
       (property "ki_description" "CAP TANT 2.2UF 20% 10V 0805" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "2u2F{brace}slash}10V_0_0"
+      (symbol "2u2F{slash}10V_0_0"
         (polyline
           (pts
             (xy 4.318 1.524)
@@ -546,7 +546,7 @@
           (fill (type none))
         )
       )
-      (symbol "2u2F{brace}slash}10V_0_1"
+      (symbol "2u2F{slash}10V_0_1"
         (polyline
           (pts
             (xy 6.35 0)
@@ -573,7 +573,7 @@
           (fill (type none))
         )
       )
-      (symbol "2u2F{brace}slash}10V_1_1"
+      (symbol "2u2F{slash}10V_1_1"
         (pin passive line (at 0 0 0) (length 5.08)
           (name "" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -700,7 +700,7 @@
       )
     )
     (symbol "HandyRadio:4u7F{slash}6.3V" (in_bom yes) (on_board yes)
-      (property "Reference" "EC" (id 0) (at 15.24 1.27 0)
+      (property "Reference" "TC" (id 0) (at 15.24 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "4u7F{slash}6.3V" (id 1) (at -10.16 1.27 0)
@@ -6278,7 +6278,7 @@
   (symbol (lib_id "HandyRadio:4u7F{slash}6.3V") (at 204.47 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2c001711-0a86-4f59-b23d-48735d3abe89)
-    (property "Reference" "EC501" (id 0) (at 208.28 112.6489 90)
+    (property "Reference" "TC501" (id 0) (at 208.28 112.6489 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7F/6.3V" (id 1) (at 208.28 115.1889 90)
@@ -6297,15 +6297,11 @@
     (pin "2" (uuid c05a0807-7c7b-46df-97a5-29e679a67778))
   )
 
-  (symbol (lib_id "HandyRadio:2u2F{brace}slash}10V") (at 375.92 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+  (symbol (lib_id "HandyRadio:2u2F{slash}10V") (at 375.92 99.06 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid 2e0f3140-c6bd-43d0-8697-d0507422229f)
-    (property "Reference" "EC503" (id 0) (at 379.73 105.0289 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2u2F{slash}10V" (id 1) (at 379.73 107.5689 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
+    (property "Reference" "TC503" (id 0) (at 381 105.41 90))
+    (property "Value" "2u2F/10V" (id 1) (at 383.54 107.95 90))
     (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" (id 2) (at 383.54 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7278,15 +7274,11 @@
     (pin "2" (uuid 90d68fa4-89bf-4b43-8153-1249be4c7998))
   )
 
-  (symbol (lib_id "HandyRadio:2u2F{brace}slash}10V") (at 358.14 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+  (symbol (lib_id "HandyRadio:2u2F{slash}10V") (at 358.14 99.06 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid c439252a-ff2b-4e78-88b4-46062dea6d80)
-    (property "Reference" "EC502" (id 0) (at 361.95 105.0289 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2u2F{slash}10V" (id 1) (at 361.95 107.5689 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
+    (property "Reference" "TC502" (id 0) (at 363.22 105.41 90))
+    (property "Value" "2u2F/10V" (id 1) (at 365.76 107.95 90))
     (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" (id 2) (at 365.76 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
