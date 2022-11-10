@@ -6,6 +6,7 @@
 
   (title_block
     (title "Handy Radio")
+    (date "2022-11-10")
     (rev "01")
     (company "Siavash Taher Parvar")
     (comment 1 "Siavash Taher Parvar")
@@ -757,6 +758,11 @@
     )
   )
 
+
+  (text "CHECKED" (at 378.46 38.1 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 456c17ac-c440-4ba5-8973-7a5c044e795b)
+  )
 
   (symbol (lib_id "HandyRadio:LABLES") (at 195.58 76.2 0) (unit 1)
     (in_bom no) (on_board no) (fields_autoplaced)

@@ -6,6 +6,7 @@
 
   (title_block
     (title "Handy Radio")
+    (date "2022-11-10")
     (rev "01")
     (company "Siavash Taher Parvar")
     (comment 1 "Siavash Taher Parvar")
@@ -21,4 +22,9 @@
   (lib_symbols
   )
 
+
+  (text "CHECKED" (at 379.73 38.1 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 86aa0763-c7da-4ea7-9034-ff0f9557ae79)
+  )
 )

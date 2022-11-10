@@ -6,6 +6,7 @@
 
   (title_block
     (title "Handy Radio")
+    (date "2022-11-10")
     (rev "01")
     (company "Siavash Taher Parvar")
     (comment 1 "Siavash Taher Parvar")
@@ -800,6 +801,11 @@
   (wire (pts (xy 182.88 120.65) (xy 182.88 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f7283800-0bb3-453f-92d0-f5b424f52792)
+  )
+
+  (text "CHECKED" (at 375.92 38.1 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid ace7a636-3e5d-4b38-9bd6-ff7e25f660f8)
   )
 
   (label "SPK-" (at 252.73 115.57 0)
